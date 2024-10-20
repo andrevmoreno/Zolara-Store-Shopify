@@ -2384,9 +2384,10 @@ input[type='checkbox'] {
     0deg,
     rgba(255, 255, 255, 0.18) 0%,
     rgba(255, 255, 255, 0.6) 95.5%
-  );
+  ) !important;
   backdrop-filter: blur(12px);
   margin: 8px 12px;
+  border-radius: 12px !important;
   /*background-color: rgb(var(--color-background));*/
 }
 
