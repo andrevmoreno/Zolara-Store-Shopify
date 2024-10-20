@@ -1,0 +1,47 @@
+{{ 'infinite-carousel.css' | asset_url | stylesheet_tag }}
+
+{% if settings.show_infiinite_carousel %}
+    <section>
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="{{ 'icon-accredo-health.svg' | asset_url }}" height="auto" width="100%" alt="Logo 1" />
+                  </div>
+                  <div class="slide">
+                    <img src="{{ 'icon-baylor-college.svg' | asset_url }}" height="auto" width="100%" alt="Logo 2" />
+                  </div>
+                  <div class="slide">
+                    <img src="{{ 'icon-c-health.svg' | asset_url }}" height="auto" width="100%" alt="Logo 3" />
+                  </div>
+                  <div class="slide">
+                    <img src="{{ 'icon-cantel-medical.svg' | asset_url }}" height="auto" width="100%" alt="Logo 4" />
+                  </div>
+                  <div class="slide">
+                    <img src="{{ 'icon-first-health.svg' | asset_url }}" height="auto" width="100%" alt="Logo 5" />
+                  </div>
+                  <div class="slide">
+                    <img src="{{ 'icon-heart-health.svg' | asset_url }}" height="auto" width="100%" alt="Logo 6" />
+                  </div>
+            </div>
+        </div>
+    </section>
+{% endif %}
+
+{%  schema %}
+{
+    "name": "Infinite Carousel",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_infinite_carousel",
+        "label": "Show Infinite Carousel",
+        "default": true
+      }
+    ],
+    "presets": [
+      {
+        "name": "Infinite Carousel"
+      }
+    ]
+  }
+{% endschema %}
