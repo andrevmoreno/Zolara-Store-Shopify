@@ -1465,21 +1465,5 @@
         "default": "scheme-1"
       }
     ]
-  },
-  {
-    "name": "Infinite Carousel",
-    "settings": [
-      {
-        "type": "checkbox",
-        "id": "show_infinite_carousel",
-        "label": "Show Infinite Carousel",
-        "default": true
-      }
-    ],
-    "presets": [
-      {
-        "name": "Infinite Carousel"
-      }
-    ]
   }
 ]
