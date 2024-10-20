@@ -1,13 +1,15 @@
-.slider {
-  align-items: center;
-  background: #e3e3e3;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
+.infinite-carousel {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
 }
 
-.slider::before,
-.slider::after {
+.infinite-carousel::before,
+.infinite-carousel::after {
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 1) 0%,
@@ -20,35 +22,35 @@
   z-index: 2;
 }
 
-.slider::after {
+.infinite-carousel::after {
   right: 0;
   top: 0;
   transform: rotateZ(180deg);
 }
 
-.slider::before {
+.infinite-carousel::before {
   left: 0;
   top: 0;
 }
 
-.slide-track {
-  animation: scroll 40s linear infinite;
+.infinite-carousel-track {
+  animation: infinite-carousel-scroll 40s linear infinite;
   display: flex;
   width: calc(250px * 14);
 }
 
-.slide {
+.infinite-carousel-item {
   height: 100px;
   width: 250px;
 }
 
-.slide img {
+.infinite-carousel-item img {
   display: block;
   height: 100%;
   width: 100%;
 }
 
-@keyframes scroll {
+@keyframes infinite-carousel-scroll {
   0% {
     transform: translateX(0);
   }
