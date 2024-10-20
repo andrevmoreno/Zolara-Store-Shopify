@@ -24,7 +24,7 @@ slideshow-component .slideshow.banner {
   .slideshow--placeholder.banner--mobile-bottom.banner--adapt_image
     .slideshow__media,
   .slideshow--placeholder.banner--adapt_image:not(.banner--mobile-bottom) {
-    height: 28rem;
+    height: 32rem;
   }
 }
 
