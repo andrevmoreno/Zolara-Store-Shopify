@@ -79,6 +79,7 @@ slideshow-component .slideshow.banner {
   .slideshow__text.slideshow__text-mobile--right {
     align-items: flex-end;
     text-align: right;
+    color: #28135d;
   }
 }
 
