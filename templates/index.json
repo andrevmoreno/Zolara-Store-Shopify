@@ -45,6 +45,12 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "infinite_carousel_AABUB8": {
+      "type": "infinite-carousel",
+      "settings": {
+        "show_infinite_carousel": true
+      }
+    },
     "featured-collection-0": {
       "type": "featured-collection",
       "settings": {
@@ -72,17 +78,11 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
-    },
-    "infinite_carousel_AABUB8": {
-      "type": "infinite-carousel",
-      "settings": {
-        "show_infinite_carousel": true
-      }
     }
   },
   "order": [
     "slideshow",
-    "featured-collection-0",
-    "infinite_carousel_AABUB8"
+    "infinite_carousel_AABUB8",
+    "featured-collection-0"
   ]
 }
