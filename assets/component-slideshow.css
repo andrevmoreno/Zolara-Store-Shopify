@@ -56,6 +56,7 @@ slideshow-component .slideshow.banner {
 
   .banner--mobile-bottom .slideshow__text.banner__box {
     max-width: 100%;
+    color: #28135d;
   }
 
   .banner--mobile-bottom .slideshow__text-wrapper {
@@ -73,7 +74,6 @@ slideshow-component .slideshow.banner {
   .slideshow__text.slideshow__text-mobile--left {
     align-items: flex-start;
     text-align: left;
-    color: #28135d;
   }
 
   .slideshow__text.slideshow__text-mobile--right {
