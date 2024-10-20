@@ -73,6 +73,7 @@ slideshow-component .slideshow.banner {
   .slideshow__text.slideshow__text-mobile--left {
     align-items: flex-start;
     text-align: left;
+    color: #28135d;
   }
 
   .slideshow__text.slideshow__text-mobile--right {
