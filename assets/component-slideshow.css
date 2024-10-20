@@ -39,6 +39,7 @@ slideshow-component .slideshow.banner {
   flex-direction: column;
   justify-content: center;
   max-width: 54.5rem;
+  background-color: transparent !important;
 }
 
 .slideshow__text > * {
@@ -89,7 +90,6 @@ slideshow-component .slideshow.banner {
   .slideshow__text.slideshow__text--right {
     align-items: flex-end;
     text-align: right;
-    background-color: transparent !important;
   }
 }
 
