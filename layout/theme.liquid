@@ -376,9 +376,9 @@
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
+{% if settings.show_infinite_carousel %}
     {% section 'infinite-carousel' %}
-
-    
+{% endif %}
 
   </body>
 </html>
