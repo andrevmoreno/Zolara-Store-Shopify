@@ -45,12 +45,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "infinite_carousel_AABUB8": {
-      "type": "infinite-carousel",
-      "settings": {
-        "show_infinite_carousel": true
-      }
-    },
     "featured-collection-0": {
       "type": "featured-collection",
       "settings": {
@@ -82,7 +76,6 @@
   },
   "order": [
     "slideshow",
-    "infinite_carousel_AABUB8",
     "featured-collection-0"
   ]
 }
