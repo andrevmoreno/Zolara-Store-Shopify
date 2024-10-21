@@ -71,8 +71,8 @@
         "button_yxxa3L": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Buy Now!",
+            "button_link": "shopify://products/therapy-compression-gloves",
             "button_style_secondary": false
           }
         }
