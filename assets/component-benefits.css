@@ -26,7 +26,7 @@
 
 .benefit-item h3 {
   font-size: 18px;
-  color: #fff; /* Texto en blanco para mayor contraste */
+  color: #fff;
 }
 
 @media screen and (max-width: 750px) {
@@ -43,19 +43,18 @@
   }
 }
 
-/* Colores para cada bloque */
 .benefit-item--coffee {
-  background-color: #00e1f0; /* Color turquesa */
+  background-color: #00e1f0;
 }
 
 .benefit-item--promote-circulation {
-  background-color: #9b51e0; /* Color púrpura */
+  background-color: #9b51e0;
 }
 
 .benefit-item--reduce-stiffness {
-  background-color: #007bff; /* Color azul */
+  background-color: #007bff;
 }
 
 .benefit-item--promote-health {
-  background-color: #eaeaea; /* Color gris */
+  background-color: #eaeaea;
 }
