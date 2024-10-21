@@ -1,0 +1,21 @@
+.tabs-section {
+  padding: 20px;
+}
+
+.tabs-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.taps-image img {
+  display: none;
+}
+
+.tapb-image img.active {
+  display: block;
+}
+
+.tab {
+  cursor: pointer;
+}
