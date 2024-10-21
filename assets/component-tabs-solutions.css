@@ -8,14 +8,20 @@
   justify-content: space-between;
   align-items: flex-start;
 }
-.taps-image img {
+
+.tabs-image img {
   display: none;
 }
 
-.tapb-image img.active {
+.tabs-image img.active {
   display: block;
 }
 
 .tab {
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab.active {
+  background-color: #f0f0f0;
 }
