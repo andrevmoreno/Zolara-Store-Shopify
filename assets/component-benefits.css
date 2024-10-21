@@ -22,6 +22,9 @@
 
 .benefit-item img {
   margin-bottom: 10px;
+  width: 62px;
+  height: 62px;
+  flex-shrink: 0;
 }
 
 .benefit-item h3 {
