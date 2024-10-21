@@ -98,11 +98,6 @@
         "padding_bottom": 36
       }
     },
-    "benefits_rgbYKa": {
-      "type": "benefits",
-      "settings": {
-      }
-    },
     "multirow_WFGGGp": {
       "type": "multirow",
       "blocks": {
@@ -148,13 +143,18 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "benefits_rgbYKa": {
+      "type": "benefits",
+      "settings": {
+      }
     }
   },
   "order": [
     "slideshow",
     "infinite_carousel_Tq8f3T",
     "image_with_text_JnMxPa",
-    "benefits_rgbYKa",
-    "multirow_WFGGGp"
+    "multirow_WFGGGp",
+    "benefits_rgbYKa"
   ]
 }
