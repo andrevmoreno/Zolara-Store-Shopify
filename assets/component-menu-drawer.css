@@ -93,12 +93,6 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer__navigation {
   padding: 3rem 0;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.18) 0%,
-    rgba(255, 255, 255, 0.6) 95.5%
-  ) !important;
-  backdrop-filter: blur(12px) !important;
 }
 
 .menu-drawer__inner-submenu {
@@ -198,6 +192,15 @@ details[open].menu-opening > .menu-drawer__submenu {
     )
     .menu-drawer__utility-links {
     padding: 2rem 3rem;
+  }
+  .menu-drawer__navigation-container {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.18) 0%,
+      rgba(255, 255, 255, 0.6) 95.5%
+    ) !important;
+    backdrop-filter: blur(12px) !important;
   }
 }
 
