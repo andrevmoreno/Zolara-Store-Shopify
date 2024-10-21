@@ -33,6 +33,10 @@
   align-items: flex-start;
 }
 
+.benefit-item--promote-health h3 {
+  background-color: #28135d;
+}
+
 @media screen and (max-width: 750px) {
   .benefits-container {
     display: flex;
