@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90px;
+  height: 150px;
   width: 100%;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .infinite-carousel-item {
-  width: 200px;
+  width: 150px;
   height: auto;
   margin: 0 20px;
   list-style: none;
