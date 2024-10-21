@@ -1,0 +1,57 @@
+<div class="tabs-section">
+    <div class="tabs-wrapper">
+      <div class="tabs-image">
+
+        {% for block in section.blocks %}
+        <img src="{{ block.settings.tab_image | image_url }}" alt="TAPS Image" class="image{% if forloop.first %} active{% endif %}" />
+        {% endfor %}
+      </div>
+
+      <div class="taps-tabs">
+        {% for block in section.blocks %}
+        <div class="tab{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}">
+          <h3>{{ block.settings.tab_title }}</h3>
+          <p>{{ block.settings.tab_description }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "TAPS Section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab Title",
+          "default": "Arthritis Gloves"
+        },
+        {
+          "type": "textarea",
+          "id": "tab_description",
+          "label": "Tab Description",
+          "default": "Unseen to iconic. We build brands - message, logo, voice. Stand out, get noticed."
+        },
+        {
+          "type": "image_picker",
+          "id": "tab_image",
+          "label": "Tab Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "TAPS Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
