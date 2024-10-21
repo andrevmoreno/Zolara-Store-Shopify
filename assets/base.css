@@ -2812,13 +2812,6 @@ details[open] > .header__submenu {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.18) 0%,
-    rgba(255, 255, 255, 0.6) 95.5%
-  ) !important;
-  backdrop-filter: blur(12px);
 }
 
 .header--top-center .header__inline-menu,
