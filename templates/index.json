@@ -148,6 +148,24 @@
       "type": "benefits",
       "settings": {
       }
+    },
+    "tabs_solutions_BGPcMG": {
+      "type": "tabs-solutions",
+      "blocks": {
+        "tab_wDEzVR": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Arthritis Gloves",
+            "tab_description": "Unseen to iconic. We build brands - message, logo, voice. Stand out, get noticed.",
+            "tab_image": "shopify://shop_images/img-2_7f789afd-7dfd-4fd7-8a7c-961545f4cb94.png"
+          }
+        }
+      },
+      "block_order": [
+        "tab_wDEzVR"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -155,6 +173,7 @@
     "infinite_carousel_Tq8f3T",
     "image_with_text_JnMxPa",
     "multirow_WFGGGp",
-    "benefits_rgbYKa"
+    "benefits_rgbYKa",
+    "tabs_solutions_BGPcMG"
   ]
 }
