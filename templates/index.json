@@ -73,7 +73,7 @@
         "padding_bottom": 60
       }
     },
-    "infinite_carousel_yjdbzx": {
+    "infinite_carousel_Tq8f3T": {
       "type": "infinite-carousel",
       "settings": {
         "show_infinite_carousel": true
@@ -82,7 +82,7 @@
   },
   "order": [
     "slideshow",
-    "featured-collection-0",
-    "infinite_carousel_yjdbzx"
+    "infinite_carousel_Tq8f3T",
+    "featured-collection-0"
   ]
 }
