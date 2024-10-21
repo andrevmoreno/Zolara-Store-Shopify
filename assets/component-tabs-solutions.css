@@ -11,6 +11,7 @@
 
 .tabs-image img {
   display: none;
+  width: 100%;
 }
 
 .tabs-image img.active {
@@ -19,9 +20,29 @@
 
 .tab {
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
 }
 
-.tab.active {
-  background-color: #f0f0f0;
+.tab.active h3,
+.tab.active p {
+  color: #000;
+}
+
+.tab h3 {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+  .tabs-wrapper {
+    flex-direction: column;
+  }
+
+  .tabs-image {
+    order: 1;
+  }
+
+  .tabs-tabs {
+    order: 2;
+  }
 }
