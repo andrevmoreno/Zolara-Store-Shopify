@@ -74,12 +74,15 @@
                     {{ block.settings.heading }}
                   </h2>
                 {%- when 'caption' -%}
-                  <p
-                    class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
-                    {{ block.shopify_attributes }}
-                  >
-                    {{ block.settings.caption | escape }}
-                  </p>
+                  <div class="image-with-text__caption-image">
+                    <img 
+                      src="{{ block.settings.caption_image | image_url: width: 50, height: 50 }}" 
+                      alt="{{ block.settings.caption_image_alt | escape }}" 
+                      width="50" 
+                      height="50" 
+                    />
+                  </div>
+                
                 {%- when 'text' -%}
                   <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
@@ -368,14 +371,20 @@
     {
       "type": "caption",
       "name": "t:sections.image-with-text.blocks.caption.name",
-      "limit": 1,
+      "limit": 2,
       "settings": [
         {
-          "type": "text",
-          "id": "caption",
-          "default": "t:sections.image-with-text.blocks.caption.settings.text.default",
-          "label": "t:sections.image-with-text.blocks.caption.settings.text.label"
+          "type": "image_picker",
+          "id": "caption_image",
+          "label": "Caption Image"
         },
+        {
+          "type": "text",
+          "id": "caption_image_alt",
+          "label": "Caption Image Alt Text",
+          "default": "Default Alt Text"
+        },
+        
         {
           "type": "select",
           "id": "text_style",
