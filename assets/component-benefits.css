@@ -1,0 +1,61 @@
+.benefits-section {
+  padding: 20px;
+  background-color: #f0f8fa;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: space-around;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.benefit-item {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+}
+
+.benefit-item img {
+  margin-bottom: 10px;
+}
+
+.benefit-item h3 {
+  font-size: 18px;
+  color: #fff; /* Texto en blanco para mayor contraste */
+}
+
+@media screen and (max-width: 750px) {
+  .benefits-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .benefit-item {
+    margin: 0 10px;
+    scroll-snap-align: center;
+  }
+}
+
+/* Colores para cada bloque */
+.benefit-item--coffee {
+  background-color: #00e1f0; /* Color turquesa */
+}
+
+.benefit-item--promote-circulation {
+  background-color: #9b51e0; /* Color púrpura */
+}
+
+.benefit-item--reduce-stiffness {
+  background-color: #007bff; /* Color azul */
+}
+
+.benefit-item--promote-health {
+  background-color: #eaeaea; /* Color gris */
+}
