@@ -37,6 +37,10 @@
   color: #28135d;
 }
 
+.benefit-item--coffee h3 {
+  color: #28135d;
+}
+
 @media screen and (max-width: 750px) {
   .benefits-container {
     display: flex;
@@ -48,8 +52,15 @@
   .benefit-item {
     margin: 0 10px;
     scroll-snap-align: center;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+  }
+  .benefit-item img {
+    width: 32px;
+    height: 32px;
+  }
+  .benefit-item h3 {
+    font-size: 14px;
   }
 }
 
