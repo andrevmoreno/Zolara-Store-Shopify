@@ -3,7 +3,7 @@
       <div class="tabs-image">
 
         {% for block in section.blocks %}
-        <img src="{{ block.settings.tab_image | image_url }}" alt="TAPS Image" class="image{% if forloop.first %} active{% endif %}" />
+        <img src="{{ block.settings.tab_image | image_url }}" alt="TABS Image" class="image{% if forloop.first %} active{% endif %}" />
         {% endfor %}
       </div>
 
@@ -20,7 +20,7 @@
 
 {% schema %}
 {
-  "name": "TAPS Section",
+  "name": "TABS Section",
   "settings": [],
   "blocks": [
     {
@@ -49,7 +49,7 @@
   ],
   "presets": [
     {
-      "name": "TAPS Section",
+      "name": "TABS Section",
       "category": "Custom"
     }
   ]
