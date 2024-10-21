@@ -95,16 +95,6 @@
     "multirow_LUFzJe": {
       "type": "multirow",
       "blocks": {
-        "row_RWUC9A": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
         "row_Fxbk4d": {
           "type": "row",
           "settings": {
@@ -127,7 +117,6 @@
         }
       },
       "block_order": [
-        "row_RWUC9A",
         "row_Fxbk4d",
         "row_RkDhhc"
       ],
@@ -137,9 +126,9 @@
         "heading_size": "h1",
         "text_style": "body",
         "button_style": "secondary",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
+        "image_layout": "alternate-right",
         "section_color_scheme": "scheme-5",
         "row_color_scheme": "scheme-5",
         "mobile_content_alignment": "left",
