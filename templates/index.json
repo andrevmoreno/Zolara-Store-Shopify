@@ -159,10 +159,19 @@
             "tab_description": "Unseen to iconic. We build brands - message, logo, voice. Stand out, get noticed.",
             "tab_image": "shopify://shop_images/img-2_7f789afd-7dfd-4fd7-8a7c-961545f4cb94.png"
           }
+        },
+        "tab_wUX4TV": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Arthritis Gloves",
+            "tab_description": "Unseen to iconic. We build brands - message, logo, voice. Stand out, get noticed.",
+            "tab_image": "shopify://shop_images/imge-tabs-solutions.png"
+          }
         }
       },
       "block_order": [
-        "tab_wDEzVR"
+        "tab_wDEzVR",
+        "tab_wUX4TV"
       ],
       "settings": {
       }
