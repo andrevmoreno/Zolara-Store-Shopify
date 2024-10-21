@@ -48,6 +48,8 @@
   .benefit-item {
     margin: 0 10px;
     scroll-snap-align: center;
+    width: 100px;
+    height: 100px;
   }
 }
 
