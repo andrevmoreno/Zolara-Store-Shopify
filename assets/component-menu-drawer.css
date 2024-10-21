@@ -193,7 +193,7 @@ details[open].menu-opening > .menu-drawer__submenu {
     .menu-drawer__utility-links {
     padding: 2rem 3rem;
   }
-  .menu-drawer__navigation-container {
+  .menu-drawer__inner-container {
     border: 1px solid rgba(255, 255, 255, 0.2);
     background: linear-gradient(
       0deg,
