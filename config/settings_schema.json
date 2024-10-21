@@ -1481,5 +1481,16 @@
         "name": "Infinite Carousel"
       }
     ]
+  },
+  {
+    "name": "Benefits",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_benefits_section",
+        "label": "Show Benefits Section",
+        "default": true
+      }
+    ]
   }
 ]
