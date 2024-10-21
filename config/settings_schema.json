@@ -1492,5 +1492,16 @@
         "default": true
       }
     ]
+  },
+  {
+    "name": "TABS Section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_taps_section",
+        "label": "Show TAPS Section",
+        "default": true
+      }
+    ]
   }
 ]
