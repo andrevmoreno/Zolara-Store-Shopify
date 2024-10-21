@@ -105,7 +105,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img-1.png",
-            "caption": "Caption",
+            "caption": "caption",
             "heading": "Row",
             "text": "<p>Achieve lasting relief and peak performance. Whether you are living with a chronic condition or chasing personal bests, Copper Compression helps you find the STRENGTH TO HEAL. We infuse copper directly into the fibers of our fabrics</p>",
             "button_label": "Button label",
