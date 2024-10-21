@@ -1498,8 +1498,8 @@
     "settings": [
       {
         "type": "checkbox",
-        "id": "show_taps_section",
-        "label": "Show TAPS Section",
+        "id": "show_tabs_section",
+        "label": "Show TABS Section",
         "default": true
       }
     ]
