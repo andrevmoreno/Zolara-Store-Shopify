@@ -12,8 +12,8 @@
 
 .benefit-item {
   padding: 20px;
-  text-align: center;
-  border-radius: 10px;
+  text-align: left;
+  border-radius: 12px;
   width: 200px;
   height: 200px;
   flex: 0 0 auto;
@@ -22,13 +22,13 @@
 
 .benefit-item img {
   margin-bottom: 10px;
-  width: 62px;
-  height: 62px;
+  width: 52px;
+  height: 52px;
   flex-shrink: 0;
 }
 
 .benefit-item h3 {
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -47,11 +47,11 @@
 }
 
 .benefit-item--coffee {
-  background-color: #00e1f0;
+  background-color: #35deed;
 }
 
 .benefit-item--promote-circulation {
-  background-color: #9b51e0;
+  background-color: #8461f7;
 }
 
 .benefit-item--reduce-stiffness {
