@@ -1,16 +1,22 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const tabs = document.querySelectorAll('.tab')
-  const contents = document.querySelectorAll('.tab-content')
+  const tabTitles = document.querySelectorAll('.tab-title')
+  const tabContents = document.querySelectorAll('.tab-content')
 
-  tabs.forEach((tab, index) => {
+  tabTitles.forEach((tab, index) => {
     tab.addEventListener('click', function () {
-      tabs.forEach((t) => t.classList.remove('active'))
-      contents.forEach((content) => (content.style.display = 'none'))
+      // Remover la clase "active" de todos los tabs y contenidos
+      tabTitles.forEach((t) => t.classList.remove('active'))
+      tabContents.forEach((c) => c.classList.remove('active'))
 
-      this.classList.add('active')
-      document.querySelector(
-        `.tab-content[data-index="${index}"]`
-      ).style.display = 'block'
+      // Agregar la clase "active" al tab y contenido clicado
+      tab.classList.add('active')
+      tabContents[index].classList.add('active')
     })
   })
+
+  // Activar la primera pestaña por defecto
+  if (tabTitles.length > 0) {
+    tabTitles[0].classList.add('active')
+    tabContents[0].classList.add('active')
+  }
 })
