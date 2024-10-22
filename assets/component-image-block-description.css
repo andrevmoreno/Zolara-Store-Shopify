@@ -1,0 +1,27 @@
+.image-block-description {
+  padding: 20px;
+}
+
+.image-block-wrapper {
+  display: flex;
+  margin: 30px 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-block-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-block-text {
+  background-color: #35deed;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin-left: 20px;
+}
