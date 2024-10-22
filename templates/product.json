@@ -121,9 +121,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img-2_7f789afd-7dfd-4fd7-8a7c-961545f4cb94.png",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "caption": "",
+            "heading": "3. Comfort and Long-Term Injury Prevention",
+            "text": "<p><strong>FlexiGlove™</strong> provides <strong>targeted compression</strong> that supports your hands, fingers, and knuckles while allowing a full range of motion. This helps prevent conditions like <strong>carpal tunnel syndrome</strong> and <strong>tendonitis</strong>, so you can stay <strong>productive and pain-free</strong> for the long haul.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
