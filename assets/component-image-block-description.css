@@ -1,10 +1,10 @@
 .image-block-description {
-  padding: 20px;
+  padding: 0 60px;
 }
 
 .image-block-wrapper {
   display: flex;
-  margin: 30px 30px;
+  margin: 42px 42px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
