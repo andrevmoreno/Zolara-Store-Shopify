@@ -92,6 +92,48 @@
         "padding_bottom": 60
       }
     },
+    "rich_text_dUJNeM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PFTeiU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Prevent Hand Strain & Boost Your Productivity with FlexiGlove™",
+            "heading_size": "h1"
+          }
+        },
+        "text_bqQpph": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Busy professionals don’t have time for hand pain. That’s why FlexiGlove™ provides fast relief, helping you stay productive and preventing long-term injuries like carpal tunnel—<strong>all without costly physical therapy</strong>. </p><p>Here’s how FlexiGlove™ keeps you focused and pain-free:</p>"
+          }
+        },
+        "button_bDrgYy": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PFTeiU",
+        "text_bqQpph",
+        "button_bDrgYy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "multirow_LUFzJe": {
       "type": "multirow",
       "blocks": {
@@ -216,6 +258,7 @@
   },
   "order": [
     "main",
+    "rich_text_dUJNeM",
     "multirow_LUFzJe",
     "multicolumn_9b3CyG",
     "related-products"
