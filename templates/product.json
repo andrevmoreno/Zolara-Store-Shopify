@@ -99,10 +99,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img-4.png",
-            "caption": "Caption",
+            "caption": "",
             "heading": "1. Quick Relief in Just 10 Minutes ",
             "text": "<p>With FlexiGlove™, you’ll experience fast, targeted pain relief in as little as a 10-minute break. These gloves are designed to <strong>reduce swelling and ease tension</strong>, so you can stay comfortable and keep working without interruptions.</p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
