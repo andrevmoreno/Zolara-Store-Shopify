@@ -41,8 +41,6 @@
   .image-block-text {
     max-width: 100%;
     position: relative;
-    bottom: auto;
-    right: auto;
     text-align: center;
   }
 
