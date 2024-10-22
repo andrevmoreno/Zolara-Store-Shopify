@@ -105,8 +105,8 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img-1.png",
-            "caption": "caption",
-            "heading": "<strong>Give Your Hands the Recharge They Deserve</strong>",
+            "caption": "",
+            "heading": "Give Your Hands the Recharge They Deserve",
             "text": "<p>Hand pain shouldn’t be the price you pay for long hours of work. Tired of swollen, aching hands after a day at the keyboard? Don’t let carpal tunnel, arthritis, or RSI (Repetitive Strain Injury) steal your comfort and slow you down. <br/>With FlexiGlove™, you can feel relief in just 10 minutes and stay ahead of your work without missing a beat.</p>",
             "button_label": "",
             "button_link": ""
@@ -117,7 +117,7 @@
           "settings": {
             "image": "shopify://shop_images/img-2.png",
             "caption": "Caption",
-            "heading": "<strong>Give Your Hands the Recharge They Deserve—Like a Power Nap for Your Productivity</strong>",
+            "heading": "Give Your Hands the Recharge They Deserve—Like a Power Nap for Your Productivity",
             "text": "<p>Hand pain shouldn’t be the price you pay for long hours of work. Tired of swollen, aching hands after a day at the keyboard? Don’t let carpal tunnel, arthritis, or RSI (Repetitive Strain Injury) steal your comfort and slow you down. </p><p><br/>With FlexiGlove™, you can feel relief in just 10 minutes and stay ahead of your work without missing a beat.</p>",
             "button_label": "",
             "button_link": ""
