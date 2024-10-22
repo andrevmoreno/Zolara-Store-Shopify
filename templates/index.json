@@ -218,18 +218,18 @@
         "collapsible_row_GdRnWd": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can I use FlexiGlove™ all day?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Absolutely! <strong>FlexiGlove™</strong> is made from breathable, flexible Copper nylon and Spandex, allowing you to wear them comfortably all day long. The open-finger design ensures full functionality without any restriction.</p>",
             "page": ""
           }
         },
         "collapsible_row_JGpimg": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Will FlexiGlove™ fit my hands properly?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Yes! <strong>FlexiGlove™</strong>offers adjustable wrist straps and comes in a range of sizes (Small to XL). Use the size guide to measure your hand circumference for a perfect fit every time.</p>",
             "page": ""
           }
         }
