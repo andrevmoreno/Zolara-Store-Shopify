@@ -19,9 +19,10 @@
 }
 
 .image-block-text {
+  position: absolute;
   background-color: #35deed;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 12px;
   max-width: 300px;
   margin-left: 20px;
 }
