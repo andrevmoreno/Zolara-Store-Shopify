@@ -144,6 +144,11 @@
         "padding_bottom": 36
       }
     },
+    "benefits_rgbYKa": {
+      "type": "benefits",
+      "settings": {
+      }
+    },
     "image_block_description_3kfMrw": {
       "type": "image-block-description",
       "settings": {
@@ -152,11 +157,6 @@
         "block_title": "Arthritis Gloves",
         "block_description": "We build brands - message, logo, voice. Stand out, get noticed.",
         "block_subtitle": "+2000 Doctor’s Recommendation"
-      }
-    },
-    "benefits_rgbYKa": {
-      "type": "benefits",
-      "settings": {
       }
     },
     "collapsible_content_PUjRnk": {
@@ -226,8 +226,8 @@
     "infinite_carousel_Tq8f3T",
     "image_with_text_JnMxPa",
     "multirow_WFGGGp",
-    "image_block_description_3kfMrw",
     "benefits_rgbYKa",
+    "image_block_description_3kfMrw",
     "collapsible_content_PUjRnk"
   ]
 }
