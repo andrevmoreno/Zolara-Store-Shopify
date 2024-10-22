@@ -30,6 +30,7 @@ menu-drawer > details[open] > summary::before {
 
 .menu-drawer {
   position: absolute;
+  margin-top: 4px;
   transform: translateX(-100%);
   visibility: hidden;
   z-index: 3;
