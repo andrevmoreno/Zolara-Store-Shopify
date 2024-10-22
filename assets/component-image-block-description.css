@@ -16,11 +16,11 @@
   width: 100vw;
   height: auto;
   border-radius: 12px;
-  border: 3px solid var(--Zolara-Stroke-white, rgba(255, 255, 255, 0.4));
+  border: 3px solid rgba(255, 255, 255, 0.4);
 }
 
 .image-block-text {
-  /*position: absolute; */
+  position: absolute;
   background-color: #35deed;
   padding: 20px;
   border-radius: 12px;
@@ -30,17 +30,23 @@
   justify-content: flex-start;
 }
 @media screen and (max-width: 750px) {
+  .image-block-description {
+    padding: 20px;
+  }
+
   .image-block-wrapper {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .image-block-text {
+    position: relative;
     max-width: 100%;
     margin-left: 0;
-    margin-top: -50px; /* Ajustar para que el texto se mueva encima de la imagen */
-    position: relative;
-    z-index: 1;
     text-align: center;
+    margin-top: 20px;
+    z-index: 1;
   }
 
   .image-block-image img {
