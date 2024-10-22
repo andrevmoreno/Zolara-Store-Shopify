@@ -148,6 +148,16 @@
       "type": "benefits",
       "settings": {
       }
+    },
+    "image_block_description_3kfMrw": {
+      "type": "image-block-description",
+      "settings": {
+        "image": "shopify://shop_images/Image_Block_Description.png",
+        "image_alt": "Arthritis Gloves",
+        "block_title": "Arthritis Gloves",
+        "block_description": "We build brands - message, logo, voice. Stand out, get noticed.",
+        "block_subtitle": "+2000 Doctor’s Recommendation"
+      }
     }
   },
   "order": [
@@ -155,6 +165,7 @@
     "infinite_carousel_Tq8f3T",
     "image_with_text_JnMxPa",
     "multirow_WFGGGp",
-    "benefits_rgbYKa"
+    "benefits_rgbYKa",
+    "image_block_description_3kfMrw"
   ]
 }
