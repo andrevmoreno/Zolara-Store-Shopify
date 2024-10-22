@@ -232,13 +232,33 @@
             "row_content": "<p>Yes! <strong>FlexiGlove™</strong>offers adjustable wrist straps and comes in a range of sizes (Small to XL). Use the size guide to measure your hand circumference for a perfect fit every time.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_9TxXkk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does FlexiGlove™ help prevent long-term injuries?",
+            "icon": "none",
+            "row_content": "<p><strong>FlexiGlove™</strong> provides <strong>targeted compression</strong> that supports your muscles and joints, reducing strain and preventing long-term issues like <strong>arthritis, carpal tunnel syndrome</strong>, and <strong>tendonitis</strong>. It’s a proactive way to protect your hands.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BkXQrT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_6k7Rf6",
         "collapsible_row_YUhVzc",
         "collapsible_row_GdRnWd",
-        "collapsible_row_JGpimg"
+        "collapsible_row_JGpimg",
+        "collapsible_row_9TxXkk",
+        "collapsible_row_BkXQrT"
       ],
       "settings": {
         "caption": "",
