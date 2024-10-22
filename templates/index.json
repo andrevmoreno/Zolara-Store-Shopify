@@ -152,6 +152,7 @@
     "image_block_description_3kfMrw": {
       "type": "image-block-description",
       "settings": {
+        "image": "shopify://shop_images/Image_Block_Description.png",
         "image_alt": "Arthritis Gloves",
         "block_title": "Arthritis Gloves",
         "block_description": "We build brands - message, logo, voice. Stand out, get noticed.",
