@@ -2,29 +2,29 @@
 
 <div class="description-more-image">
     <div class="description-wrapper">
-
-        <div class="tabs-wrapper">
-            <ul class="tabs">
-              {% for block in section.blocks %}
-                <li class="tab-title">{{ block.settings.tab_title }}</li>
-              {% endfor %}
-            </ul>
-            <div class="tabs-content">
-              {% for block in section.blocks %}
-                <div class="tab-content">{{ block.settings.tab_content }}</div>
-              {% endfor %}
-            </div>
-          </div>
-          <script src="{{ 'description-more-image.js' | asset_url }}" async></script>
-
-
-        {% if section.settings.show_image %}
-            <div class="image-right">
-                <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt }}" />
-            </div>
-        {% endif %}
+      <div class="tabs-wrapper">
+        <ul class="tabs">
+          {% for block in section.blocks %}
+            <li class="tab-title">{{ block.settings.tab_title }}</li>
+          {% endfor %}
+        </ul>
+        <div class="tabs-content">
+          {% for block in section.blocks %}
+            <div class="tab-content">{{ block.settings.tab_content }}</div>
+          {% endfor %}
+        </div>
+      </div>
+  
+      {% if section.settings.show_image %}
+        <div class="image-right">
+          <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt }}" />
+        </div>
+      {% endif %}
     </div>
-</div>
+  </div>
+  
+  <script src="{{ 'description-more-image.js' | asset_url }}" async></script>
+  
 
 {% schema %}
 {
