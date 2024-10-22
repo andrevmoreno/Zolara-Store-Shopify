@@ -110,9 +110,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img-3.png",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "caption": "",
+            "heading": "2. Ergonomic and Breathable Design",
+            "text": "<p>Made from <strong>Copper nylon and Spandex</strong>, <strong>FlexiGlove™</strong> offers flexibility and breathability for <strong>all-day comfort</strong>. Whether you’re typing, using a mouse, or writing, these gloves provide essential support for your hands throughout the day.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
