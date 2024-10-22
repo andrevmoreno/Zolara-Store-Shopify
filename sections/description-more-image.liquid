@@ -1,4 +1,4 @@
-{{ 'description-more-image.js' | asset_url | script_tag }}
+{{ 'component-description-more-image.css' | asset_url | stylesheet_tag }}
 
 <div class="description-more-image">
     <div class="description-wrapper">
@@ -15,7 +15,8 @@
               {% endfor %}
             </div>
           </div>
-          
+          <script src="{{ 'description-more-image.js' | asset_url }}" async></script>
+
 
         {% if section.settings.show_image %}
             <div class="image-right">
