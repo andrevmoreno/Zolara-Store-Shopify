@@ -39,7 +39,6 @@
   .image-block-wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
   }
 
   .image-block-text {
