@@ -2637,7 +2637,7 @@ input[type='checkbox'] {
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 0.18) 0%,
-    rgba(255, 255, 255, 0.6) 95.5%
+    rgba(255, 255, 255, 0.817) 95.5%
   ) !important;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(10px);
