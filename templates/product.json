@@ -92,33 +92,6 @@
         "padding_bottom": 60
       }
     },
-    "description_more_image_y9bdMD": {
-      "type": "description-more-image",
-      "blocks": {
-        "tab_UL6BH8": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "Description",
-            "tab_content": "Essentials for Long-Lasting Shoes..."
-          }
-        },
-        "tab_DJxJL9": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "Description",
-            "tab_content": "Essentials for Long-Lasting Shoes..."
-          }
-        }
-      },
-      "block_order": [
-        "tab_UL6BH8",
-        "tab_DJxJL9"
-      ],
-      "settings": {
-        "show_image": true,
-        "image": "shopify://shop_images/img-tabs.png"
-      }
-    },
     "multirow_LUFzJe": {
       "type": "multirow",
       "blocks": {
@@ -243,7 +216,6 @@
   },
   "order": [
     "main",
-    "description_more_image_y9bdMD",
     "multirow_LUFzJe",
     "multicolumn_9b3CyG",
     "related-products"
