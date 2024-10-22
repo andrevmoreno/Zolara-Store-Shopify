@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Cover-Banner_1.5x-1_1.5x.png",
-            "heading": "<strong>Don't Let Hand Pain Steal Your Productivity</strong>",
+            "heading": "Don't Let Hand Pain Steal Your Productivity",
             "heading_size": "h1",
             "subheading": "Long hours shouldn’t mean sore hands. With <strong>FlexiGlove™</strong>, ease the strain and keep your day pain-free.",
             "button_label": "Shop all",
@@ -57,7 +57,7 @@
         "heading_A9i43E": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Lasting Relief. Peak Performance.</strong>",
+            "heading": "Lasting Relief. Peak Performance.",
             "heading_size": "h1"
           }
         },
