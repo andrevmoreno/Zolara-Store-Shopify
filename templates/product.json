@@ -34,6 +34,11 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -52,17 +57,6 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -70,11 +64,10 @@
         "title",
         "rating",
         "price",
+        "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "description",
-        "share"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
