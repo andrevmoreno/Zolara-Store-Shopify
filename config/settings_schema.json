@@ -1503,5 +1503,16 @@
         "default": true
       }
     ]
+  },
+  {
+    "name": "Enable Image Block Description",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_image_block_description",
+        "label": "Show Image Block Description Section",
+        "default": true
+      }
+    ]
   }
 ]
