@@ -2386,9 +2386,20 @@ input[type='checkbox'] {
     rgba(255, 255, 255, 0.6) 95.5%
   ) !important;
   backdrop-filter: blur(12px);
-  margin: 8px 12px;
   border-radius: 12px !important;
+  margin: 8px 12px;
   /*background-color: rgb(var(--color-background));*/
+}
+
+.bg-blur-primary {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(255, 255, 255, 0.6) 95.5%
+  ) !important;
+  backdrop-filter: blur(12px);
+  border-radius: 12px !important;
 }
 
 .header-wrapper--border-bottom {
@@ -2620,7 +2631,7 @@ input[type='checkbox'] {
   width: 100%;
   display: block;
   position: absolute;
-  background: rgba(var(--color-foreground), 0.5);
+  background: transparent;
 }
 
 .header__icon--account shop-user-avatar {
