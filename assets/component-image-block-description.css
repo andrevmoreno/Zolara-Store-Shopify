@@ -23,6 +23,8 @@
   position: absolute;
   background-color: #35deed;
   padding: 20px;
+  bottom: 20px;
+  right: 20px;
   border-radius: 12px;
   max-width: 300px;
   margin-left: 20px;
@@ -45,7 +47,6 @@
     max-width: 100%;
     margin-left: 0;
     text-align: center;
-    margin-top: 20px;
     z-index: 1;
   }
 
