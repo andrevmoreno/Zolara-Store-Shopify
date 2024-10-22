@@ -245,9 +245,9 @@
         "collapsible_row_BkXQrT": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How durable are these gloves?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Made with <strong>copper-infused fabrics</strong>, FlexiGlove™is built for durability and long-term use. The materials ensure <strong>hygiene</strong> and <strong>effectiveness</strong>, even with daily wear, and they’re designed to maintain their shape and support over time.</p>",
             "page": ""
           }
         }
