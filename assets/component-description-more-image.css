@@ -33,6 +33,24 @@
   border-radius: 12px;
 }
 
+.tab-title {
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+}
+
+.tab-title.active {
+  border-bottom: 2px solid #5c34a2; /* Color o estilo de la pestaña activa */
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
 /* Animación suave */
 .description-more-image {
   opacity: 0;
