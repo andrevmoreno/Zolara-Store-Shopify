@@ -1,0 +1,53 @@
+<div class="image-block-description">
+    <div class="image-block-wrapper">
+      <!-- Imagen autoadministrable -->
+      <div class="image-block-image">
+        <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt | escape }}" />
+      </div>
+  
+      <!-- Bloque de texto -->
+      <div class="image-block-text">
+        <h2>{{ section.settings.block_title }}</h2>
+        <p>{{ section.settings.block_description }}</p>
+        <p><strong>{{ section.settings.block_subtitle }}</strong></p>
+      </div>
+    </div>
+  </div>
+  
+  {% schema %}
+  {
+    "name": "Image Block Description",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Block Image"
+      },
+      {
+        "type": "text",
+        "id": "image_alt",
+        "label": "Image Alt Text",
+        "default": "Arthritis Gloves"
+      },
+      {
+        "type": "text",
+        "id": "block_title",
+        "label": "Title",
+        "default": "Arthritis Gloves"
+      },
+      {
+        "type": "textarea",
+        "id": "block_description",
+        "label": "Description",
+        "default": "Unseen to iconic. We build brands - message, logo, voice. Stand out, get noticed."
+      },
+      {
+        "type": "text",
+        "id": "block_subtitle",
+        "label": "Subtitle",
+        "default": "+2000 Doctor’s Recommendation"
+      }
+    ]
+  }
+  {% endschema %}
+  
