@@ -1514,5 +1514,27 @@
         "default": true
       }
     ]
+  },
+  {
+    "name": "Description More Image",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_image",
+        "label": "Show Image",
+        "default": true
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Upload Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Description More Image",
+        "category": "Custom"
+      }
+    ]
   }
 ]
