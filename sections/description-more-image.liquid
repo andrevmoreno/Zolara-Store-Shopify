@@ -1,0 +1,20 @@
+<div class="description-more-image">
+    <div class="description-wrapper">
+
+        <div class="tabs-left">
+            {% for block in section.blocks %}
+                <div class="tab {% if forloop.first %}active{% endif %}" data-index="{{ forloop.index0 }}">
+                    <h3>{{ block.settings.tab_title }}</h3>
+                    <p>{{ block.settings.tab_description }}</p>
+                </div>
+            {% endfor %}
+        </div>
+
+
+        {% if section.settings.show_image %}
+            <div class="image-right">
+                <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt }}" />
+            </div>
+        {% endif %}
+    </div>
+</div>
