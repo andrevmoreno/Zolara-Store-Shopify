@@ -260,31 +260,22 @@
         "padding_bottom": 36
       }
     },
-    "description_more_image_iDPrPD": {
+    "description_more_image_K9rRCh": {
       "type": "description-more-image",
       "blocks": {
-        "tab_djN4YC": {
+        "tab_aEqGrF": {
           "type": "tab",
           "settings": {
             "tab_title": "Description",
-            "tab_content": "Essentials for Long-Lasting Shoes...\nlkl,k,k,k"
-          }
-        },
-        "tab_cGNDWa": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "Description",
-            "tab_content": "Essentials for Long-Lasting Shoes..."
+            "tab_content": "Essentia\nls for Long-Lasting Shoes..."
           }
         }
       },
       "block_order": [
-        "tab_djN4YC",
-        "tab_cGNDWa"
+        "tab_aEqGrF"
       ],
       "settings": {
-        "show_image": true,
-        "image": "shopify://shop_images/img-tabs.png"
+        "show_image": true
       }
     }
   },
@@ -296,6 +287,6 @@
     "benefits_rgbYKa",
     "image_block_description_3kfMrw",
     "collapsible_content_PUjRnk",
-    "description_more_image_iDPrPD"
+    "description_more_image_K9rRCh"
   ]
 }
