@@ -301,6 +301,24 @@
             "row_content": "<p><strong>FlexiGlove™</strong> provides <strong>targeted compression</strong> that supports your muscles and joints, reducing strain and preventing long-term issues like <strong>arthritis, carpal tunnel syndrome</strong>, and <strong>tendonitis</strong>. It’s a proactive way to protect your hands.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_8MTp6c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How durable are these gloves?",
+            "icon": "none",
+            "row_content": "<p>Made with <strong>copper-infused fabrics</strong>, FlexiGlove™is built for durability and long-term use. The materials ensure <strong>hygiene</strong> and <strong>effectiveness</strong>, even with daily wear, and they’re designed to maintain their shape and support over time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qUKLGR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -308,7 +326,9 @@
         "collapsible_row_pRHf48",
         "collapsible_row_3mhjpe",
         "collapsible_row_ni9Utd",
-        "collapsible_row_H6qRzN"
+        "collapsible_row_H6qRzN",
+        "collapsible_row_8MTp6c",
+        "collapsible_row_qUKLGR"
       ],
       "settings": {
         "caption": "We’ve got answers to your top questions about how FlexiGlove™",
