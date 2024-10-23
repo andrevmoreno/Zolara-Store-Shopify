@@ -28,7 +28,7 @@
 .infinite-carousel-item img {
   width: 100%;
   height: auto;
-  filter: grayscale(100%);
+  filter: grayscale(50%);
   transition: filter 0.3s;
 }
 
