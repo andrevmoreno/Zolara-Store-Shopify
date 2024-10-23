@@ -1556,5 +1556,22 @@
         "category": "Custom"
       }
     ]
+  },
+  {
+    "name": "Words Infinite Carousel",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_words_infinite_carousel",
+        "label": "Show Words Infinite Carousel",
+        "default": true
+      }
+    ],
+    "presets": [
+      {
+        "name": "Words Infinite Carousel",
+        "category": "Custom"
+      }
+    ]
   }
 ]
