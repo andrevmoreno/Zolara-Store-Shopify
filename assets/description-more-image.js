@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
   const tabs = document.querySelectorAll('.tab')
-  const tabContents = document.querySelectorAll('.tab-content')
+  const contents = document.querySelectorAll('.tab-content')
 
-  tabs.forEach((tab) => {
+  tabs.forEach((tab, index) => {
     tab.addEventListener('click', () => {
-      // Remove active class from all tabs and tab contents
+      // Remove active class from all tabs and content
       tabs.forEach((t) => t.classList.remove('active'))
-      tabContents.forEach((tc) => tc.classList.remove('active'))
+      contents.forEach((c) => c.classList.remove('active'))
 
-      // Add active class to the selected tab and corresponding content
+      // Add active class to clicked tab and its corresponding content
       tab.classList.add('active')
-      document.getElementById(tab.dataset.tab).classList.add('active')
+      contents[index].classList.add('active')
     })
   })
 })
