@@ -36,6 +36,7 @@
 .tab-content {
   padding: 20px 0;
   display: block;
+  width: 100%;
 }
 
 .tab-content p {
