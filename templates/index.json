@@ -283,7 +283,8 @@
         "tab_cGNDWa"
       ],
       "settings": {
-        "show_image": true
+        "show_image": true,
+        "image": "shopify://shop_images/img-tabs.png"
       }
     }
   },
