@@ -85,24 +85,6 @@
         "padding_bottom": 60
       }
     },
-    "description_more_image_8mPTmr": {
-      "type": "description-more-image",
-      "blocks": {
-        "tab_pCBTeM": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "Description",
-            "tab_content": "Essentials for Long-Lasting Shoes..."
-          }
-        }
-      },
-      "block_order": [
-        "tab_pCBTeM"
-      ],
-      "settings": {
-        "show_image": true
-      }
-    },
     "rich_text_dUJNeM": {
       "type": "rich-text",
       "blocks": {
@@ -406,17 +388,44 @@
         "padding_top": 0,
         "padding_bottom": 52
       }
+    },
+    "description_more_image_dLgJK3": {
+      "type": "description-more-image",
+      "blocks": {
+        "tab_zphfrK": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Description",
+            "tab_content": "Essentials for Long-Lasting Shoes..."
+          }
+        },
+        "tab_kQbpCY": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Description",
+            "tab_content": "Essentials for Long-Lasting Shoes..."
+          }
+        }
+      },
+      "block_order": [
+        "tab_zphfrK",
+        "tab_kQbpCY"
+      ],
+      "settings": {
+        "show_image": true,
+        "image": "shopify://shop_images/img-tabs.png"
+      }
     }
   },
   "order": [
     "main",
-    "description_more_image_8mPTmr",
     "rich_text_dUJNeM",
     "multirow_LUFzJe",
     "multicolumn_9b3CyG",
     "benefits_cmYJ9F",
     "related-products",
     "collapsible_content_TtKMiR",
-    "rich_text_CVAiRm"
+    "rich_text_CVAiRm",
+    "description_more_image_dLgJK3"
   ]
 }
