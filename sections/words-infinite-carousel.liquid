@@ -1,0 +1,56 @@
+<div class="infinite-carousel">
+    <div class="carousel-wrapper">
+      <div class="carousel">
+        <span class="carousel-item">{{ section.settings.word_1 }}</span>
+        <span class="carousel-icon"><img src="{{ 'icon-hand-circle.svg' | asset_url }}" alt="Comfort Icon"></span>
+        <span class="carousel-item">{{ section.settings.word_2 }}</span>
+        <span class="carousel-icon"><img src="{{ 'icon-hand-circle.svg' | asset_url }}" alt="Functional Icon"></span>
+        <span class="carousel-item">{{ section.settings.word_3 }}</span>
+        <span class="carousel-icon"><img src="{{ 'icon-hand-circle.svg' | asset_url }}" alt="Injury Prevention Icon"></span>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    const carousel = document.querySelector('.carousel');
+    let scrollAmount = 0;
+    function autoScroll() {
+      scrollAmount += 2;
+      carousel.style.transform = 'translateX(-' + scrollAmount + 'px)';
+      if (scrollAmount >= carousel.scrollWidth / 2) {
+        scrollAmount = 0;
+      }
+    }
+    setInterval(autoScroll, 30);
+  </script>
+  {% schema %}
+{
+  "name": "Infinite Word Carousel",
+  "settings": [
+    {
+      "type": "text",
+      "id": "word_1",
+      "label": "First Word",
+      "default": "ALL-DAY COMFORT"
+    },
+    {
+      "type": "text",
+      "id": "word_2",
+      "label": "Second Word",
+      "default": "FUNCTIONAL"
+    },
+    {
+      "type": "text",
+      "id": "word_3",
+      "label": "Third Word",
+      "default": "INJURY PREVENTION"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
