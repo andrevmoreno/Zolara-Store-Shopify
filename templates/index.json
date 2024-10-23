@@ -16,11 +16,11 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Cover-Banner_1.5x-1_1.5x.png",
-            "heading": "Relief For All Types Of Hand Pain",
+            "heading": "Don't Let Hand Pain Steal Your Productivity",
             "heading_size": "h1",
-            "subheading": "Commonly used by people suffering from pain in the hands, Arthritis, Carpal Tunnel, Tendonitis, stiff or sore muscles, tendons & joints, and more!",
+            "subheading": "Long hours shouldn’t mean sore hands. With <strong>FlexiGlove™</strong>, ease the strain and keep your day pain-free.",
             "button_label": "Shop all",
-            "link": "shopify://collections/all",
+            "link": "shopify://products/therapy-compression-gloves",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": true,
@@ -57,14 +57,14 @@
         "heading_A9i43E": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Achieve lasting relief and peak performance. </strong>",
+            "heading": "Lasting Relief. Peak Performance.",
             "heading_size": "h1"
           }
         },
         "text_UzCWq6": {
           "type": "text",
           "settings": {
-            "text": "<p>Achieve lasting relief and peak performance. Whether you are living with a chronic condition or chasing personal bests, Copper Compression helps you find the STRENGTH TO HEAL. We infuse copper directly into the fibers of our fabrics</p>",
+            "text": "<p>Living with hand pain shouldn’t be your new normal. <strong>FlexiGlove™</strong> offers a proven solution to eliminate discomfort and keep you productive. Whether you’re dealing with arthritis, carpal tunnel, or stiffness from long hours at the keyboard, our gloves work fast to relieve pain—so you can focus on what matters.</p>",
             "text_style": "body"
           }
         },
@@ -105,10 +105,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img-1.png",
-            "caption": "caption",
-            "heading": "Row",
-            "text": "<p>Achieve lasting relief and peak performance. Whether you are living with a chronic condition or chasing personal bests, Copper Compression helps you find the STRENGTH TO HEAL. We infuse copper directly into the fibers of our fabrics</p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "Give Your Hands the Recharge They Deserve",
+            "text": "<p>Hand pain shouldn’t be the price you pay for long hours of work. Tired of swollen, aching hands after a day at the keyboard? Don’t let carpal tunnel, arthritis, or RSI (Repetitive Strain Injury) steal your comfort and slow you down. <br/>With FlexiGlove™, you can feel relief in just 10 minutes and stay ahead of your work without missing a beat.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -116,10 +116,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img-2.png",
-            "caption": "Caption",
-            "heading": "Achieve lasting relief and peak performance.",
-            "text": "<p>Achieve lasting relief and peak performance. Whether you are living with a chronic condition or chasing personal bests, Copper Compression helps you find the STRENGTH TO HEAL. We infuse copper directly into the fibers of our fabrics</p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "Give Your Hands the Recharge They Deserve—Like a Power Nap for Your Productivity",
+            "text": "<p>Hand pain shouldn’t be the price you pay for long hours of work. Tired of swollen, aching hands after a day at the keyboard? Don’t let carpal tunnel, arthritis, or RSI (Repetitive Strain Injury) steal your comfort and slow you down. </p><p><br/>With FlexiGlove™, you can feel relief in just 10 minutes and stay ahead of your work without missing a beat.</p>",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -153,10 +153,45 @@
       "type": "image-block-description",
       "settings": {
         "image": "shopify://shop_images/2147896701.jpg",
-        "image_alt": "Arthritis Gloves",
-        "block_title": "Arthritis Gloves",
-        "block_description": "We build brands - message, logo, voice. Stand out, get noticed.",
-        "block_subtitle": "+2000 Doctor’s Recommendation"
+        "image_alt": "FlexiGlove™",
+        "block_title": "FlexiGlove™",
+        "block_description": "ombines compression, and copper infusion for fast relief from pain and stiffness. Feel the difference in just 10 minutes—better circulation, less pain, and protection from long-term injuries like carpal tunnel.",
+        "block_subtitle": "Instant Hand Pain Relief, Anytime You Need It"
+      }
+    },
+    "description_more_image_ikG7pp": {
+      "type": "description-more-image",
+      "blocks": {
+        "tab_Wqjyzi": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Description",
+            "tab_content": "hola"
+          }
+        },
+        "tab_3JKgnj": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Description",
+            "tab_content": "Essentials for Long-Lasting Shoes...\njjj"
+          }
+        },
+        "tab_8E6JnY": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Description",
+            "tab_content": "Essentials for Long-Lasting Shoes..."
+          }
+        }
+      },
+      "block_order": [
+        "tab_Wqjyzi",
+        "tab_3JKgnj",
+        "tab_8E6JnY"
+      ],
+      "settings": {
+        "show_image": true,
+        "image": "shopify://shop_images/img-tabs.png"
       }
     },
     "collapsible_content_PUjRnk": {
@@ -165,36 +200,72 @@
         "collapsible_row_6k7Rf6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Why FlexiGlove™ works for you?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>FlexiGlove™ seamlessly fits into your busy workday. You can wear it during quick 10-minute breaks or throughout the day to recharge your hands, without needing to step away from your desk. It’s the ideal solution for staying pain-free and productive.</p>",
             "page": ""
           }
         },
         "collapsible_row_YUhVzc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": " How quickly will FlexiGlove™ provide relief?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p><strong>FlexiGlove™</strong> works fast! You’ll feel noticeable relief in just <strong>10 minutes</strong>. The targeted compression reduces pain and improves circulation, so you can get back to work feeling pain-free and refreshed.</p>",
             "page": ""
           }
         },
         "collapsible_row_GdRnWd": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can I use FlexiGlove™ all day?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Absolutely! <strong>FlexiGlove™</strong> is made from breathable, flexible Copper nylon and Spandex, allowing you to wear them comfortably all day long. The open-finger design ensures full functionality without any restriction.</p>",
             "page": ""
           }
         },
         "collapsible_row_JGpimg": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Will FlexiGlove™ fit my hands properly?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Yes! <strong>FlexiGlove™</strong>offers adjustable wrist straps and comes in a range of sizes (Small to XL). Use the size guide to measure your hand circumference for a perfect fit every time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9TxXkk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does FlexiGlove™ help prevent long-term injuries?",
+            "icon": "none",
+            "row_content": "<p><strong>FlexiGlove™</strong> provides <strong>targeted compression</strong> that supports your muscles and joints, reducing strain and preventing long-term issues like <strong>arthritis, carpal tunnel syndrome</strong>, and <strong>tendonitis</strong>. It’s a proactive way to protect your hands.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BkXQrT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How durable are these gloves?",
+            "icon": "none",
+            "row_content": "<p>Made with <strong>copper-infused fabrics</strong>, FlexiGlove™is built for durability and long-term use. The materials ensure <strong>hygiene</strong> and <strong>effectiveness</strong>, even with daily wear, and they’re designed to maintain their shape and support over time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tVbedN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the gloves easy to clean?",
+            "icon": "none",
+            "row_content": "<p>Yes, <strong>FlexiGlove™ </strong>is easy to clean! Just hand wash with mild soap and water, then air dry. The <strong>copper-infused fabric</strong> helps keep the gloves hygienic and fresh, even with regular use.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_c6NPjF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": " Are FlexiGlove™ gloves suitable for arthritis and carpal tunnel syndrome?",
+            "icon": "none",
+            "row_content": "<p>Yes, <strong>FlexiGlove™ </strong>is perfect for those with <strong>arthritis, carpal tunnel syndrome</strong>, and <strong>tendonitis</strong>. The compression relieves pain, reduces swelling, and improves circulation. Plus, the ergonomic design allows for long-term wear without discomfort.</p>",
             "page": ""
           }
         }
@@ -203,11 +274,15 @@
         "collapsible_row_6k7Rf6",
         "collapsible_row_YUhVzc",
         "collapsible_row_GdRnWd",
-        "collapsible_row_JGpimg"
+        "collapsible_row_JGpimg",
+        "collapsible_row_9TxXkk",
+        "collapsible_row_BkXQrT",
+        "collapsible_row_tVbedN",
+        "collapsible_row_c6NPjF"
       ],
       "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
+        "caption": "We’ve got answers to your top questions about how FlexiGlove™",
+        "heading": "Find Relief with FlexiGlove™: Everything You Need to Know",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "row",
@@ -228,6 +303,7 @@
     "multirow_WFGGGp",
     "benefits_rgbYKa",
     "image_block_description_3kfMrw",
+    "description_more_image_ikG7pp",
     "collapsible_content_PUjRnk"
   ]
 }

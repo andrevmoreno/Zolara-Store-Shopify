@@ -34,6 +34,11 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -52,17 +57,6 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -70,11 +64,10 @@
         "title",
         "rating",
         "price",
+        "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "description",
-        "share"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -92,6 +85,48 @@
         "padding_bottom": 60
       }
     },
+    "rich_text_dUJNeM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PFTeiU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Prevent Hand Strain & Boost Your Productivity with FlexiGlove™",
+            "heading_size": "h1"
+          }
+        },
+        "text_bqQpph": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Busy professionals don’t have time for hand pain. That’s why FlexiGlove™ provides fast relief, helping you stay productive and preventing long-term injuries like carpal tunnel—<strong>all without costly physical therapy</strong>. </p><p>Here’s how FlexiGlove™ keeps you focused and pain-free:</p>"
+          }
+        },
+        "button_bDrgYy": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PFTeiU",
+        "text_bqQpph",
+        "button_bDrgYy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "multirow_LUFzJe": {
       "type": "multirow",
       "blocks": {
@@ -99,10 +134,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img-4.png",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "1. Quick Relief in Just 10 Minutes ",
+            "text": "<p>With FlexiGlove™, you’ll experience fast, targeted pain relief in as little as a 10-minute break. These gloves are designed to <strong>reduce swelling and ease tension</strong>, so you can stay comfortable and keep working without interruptions.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -110,9 +145,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img-3.png",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "caption": "",
+            "heading": "2. Ergonomic and Breathable Design",
+            "text": "<p>Made from <strong>Copper nylon and Spandex</strong>, <strong>FlexiGlove™</strong> offers flexibility and breathability for <strong>all-day comfort</strong>. Whether you’re typing, using a mouse, or writing, these gloves provide essential support for your hands throughout the day.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -121,9 +156,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img-2_7f789afd-7dfd-4fd7-8a7c-961545f4cb94.png",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "caption": "",
+            "heading": "3. Comfort and Long-Term Injury Prevention",
+            "text": "<p><strong>FlexiGlove™</strong> provides <strong>targeted compression</strong> that supports your hands, fingers, and knuckles while allowing a full range of motion. This helps prevent conditions like <strong>carpal tunnel syndrome</strong> and <strong>tendonitis</strong>, so you can stay <strong>productive and pain-free</strong> for the long haul.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -216,6 +251,7 @@
   },
   "order": [
     "main",
+    "rich_text_dUJNeM",
     "multirow_LUFzJe",
     "multicolumn_9b3CyG",
     "related-products"
