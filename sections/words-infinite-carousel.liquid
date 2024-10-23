@@ -1,6 +1,7 @@
 {{ 'component-words-infinite-carousel.css' | asset_url | stylesheet_tag }}
 
 <div class="infinite-carousel">
+  {% for i in [1, 2]  %}
     <div class="carousel-wrapper">
       <div class="carousel">
         <span class="carousel-item">{{ section.settings.word_1 }}</span>
@@ -18,7 +19,10 @@
         <span class="carousel-icon"><img src="{{ 'icon-hand-circle.svg' | asset_url }}" alt="Injury Prevention Icon"></span>
       </div>
     </div>
-  </div>
+  {% endfor %}
+</div>
+
+    
   {% comment %}
   <script>
     const carousel = document.querySelector('.carousel');
