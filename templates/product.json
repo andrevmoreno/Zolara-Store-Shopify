@@ -85,24 +85,6 @@
         "padding_bottom": 60
       }
     },
-    "description_more_image_qDwjGB": {
-      "type": "description-more-image",
-      "blocks": {
-        "tab_WVBU4V": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "Description",
-            "tab_content": "Essentials for Long-Lasting Shoes..."
-          }
-        }
-      },
-      "block_order": [
-        "tab_WVBU4V"
-      ],
-      "settings": {
-        "show_image": true
-      }
-    },
     "rich_text_dUJNeM": {
       "type": "rich-text",
       "blocks": {
@@ -269,7 +251,6 @@
   },
   "order": [
     "main",
-    "description_more_image_qDwjGB",
     "rich_text_dUJNeM",
     "multirow_LUFzJe",
     "multicolumn_9b3CyG",
