@@ -391,11 +391,10 @@
 {% if settings.show_image_block_description %}
   {%  section 'image-block-description' %}
   {% endif %}
-  
-  {% if section.settings.show_tabs_description_image %}
-    {% section 'tabs-description-image' %}
-{% endif %}
 
+{% if settings.show_tabs_description_image %}
+  {% section 'tabs-description-image' %}
+{% endif %}
 
   </body>
 </html>
