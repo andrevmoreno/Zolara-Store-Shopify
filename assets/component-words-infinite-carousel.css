@@ -16,7 +16,7 @@
 
 .carousel {
   display: flex;
-  animation: scroll 40s linear infinite;
+  animation: 5s scroll 40s linear infinite;
 }
 
 .carousel-item {
