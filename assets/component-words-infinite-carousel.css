@@ -2,8 +2,6 @@
   overflow: hidden;
   position: relative;
   padding: 20px 0;
-  background-color: #e5faff;
-  margin: 0px 60px;
 }
 
 .carousel-wrapper {
@@ -12,6 +10,8 @@
   align-items: center;
   width: 100%;
   overflow: hidden;
+  background-color: #e5faff;
+  margin: 0px 60px;
 }
 
 .carousel {
