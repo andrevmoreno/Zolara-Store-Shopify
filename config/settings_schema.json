@@ -1516,6 +1516,7 @@
     ]
   },
   {
+    "type": "section",
     "name": "Description More Image",
     "settings": [
       {
@@ -1528,12 +1529,30 @@
         "type": "image_picker",
         "id": "image",
         "label": "Upload Image"
-      }
-    ],
-    "presets": [
+      },
       {
-        "name": "Description More Image",
-        "category": "Custom"
+        "type": "text",
+        "id": "image_alt",
+        "label": "Image Alt Text",
+        "default": "Default alt text for image"
+      },
+      {
+        "type": "richtext",
+        "id": "details_text",
+        "label": "Details Text",
+        "default": "Enter details text here."
+      },
+      {
+        "type": "richtext",
+        "id": "care_guide_text",
+        "label": "Care Guide Text",
+        "default": "Enter care guide text here."
+      },
+      {
+        "type": "richtext",
+        "id": "shipping_text",
+        "label": "Shipping Text",
+        "default": "Enter shipping text here."
       }
     ]
   }
