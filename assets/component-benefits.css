@@ -5,9 +5,10 @@
 
 .benefits-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
+  gap: 40px;
 }
 
 .benefit-item {
@@ -41,16 +42,21 @@
   color: #424242;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
+  .benefits-section {
+    padding: 20px 12px;
+  }
+
   .benefits-container {
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
+    gap: 12px;
+    justify-content: start;
   }
 
   .benefit-item {
-    margin: 0 10px;
     scroll-snap-align: center;
     width: 150px;
     height: 150px;
