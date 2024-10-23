@@ -1516,7 +1516,7 @@
     ]
   },
   {
-    "name": "Description More Image",
+    "name": "t:settings_schema.tabs_section.name",
     "settings": [
       {
         "type": "checkbox",
