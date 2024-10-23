@@ -12,7 +12,7 @@
           {% for block in section.blocks %}
             <div class="tab-content rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
-              </div>
+              </div>              
 
           {% endfor %}
         </div>
@@ -29,52 +29,59 @@
   <script src="{{ 'description-more-image.js' | asset_url }}" async></script>
   
 
-{% schema %}
-{
-  "name": "Description More Image",
-  "settings": [
-    {
-      "type": "checkbox",
-      "id": "show_image",
-      "label": "Show Image",
-      "default": true
-    },
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Upload Image"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "tab",
-      "name": "Tab",
-      "settings": [
-        {
-          "type": "text",
-          "id": "tab_title",
-          "label": "Tab Title",
-          "default": "Description"
-        },
-        {
-          "type": "richtext",
-          "id": "tab_content",
-          "label": "Tab Content",
-          "default": "Essentials for Long-Lasting Shoes..."
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Description More Image",
-      "category": "Custom",
-      "blocks": [
-        {
-          "type": "tab"
-        }
-      ]
-    }
-  ]
-}
-{% endschema %}
+  {% schema %}
+  {
+    "name": "Description More Image",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_image",
+        "label": "Show Image",
+        "default": true
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Upload Image"
+      },
+      {
+        "type": "text",
+        "id": "image_alt",
+        "label": "Image Alt Text",
+        "default": "Default alt text for image"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "tab",
+        "name": "Tab",
+        "settings": [
+          {
+            "type": "text",
+            "id": "tab_title",
+            "label": "Tab Title",
+            "default": "Description"
+          },
+          {
+            "type": "richtext",
+            "id": "tab_content",
+            "label": "Tab Content",
+            "default": "Essentials for Long-Lasting Shoes...",
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Description More Image",
+        "category": "Custom",
+        "blocks": [
+          {
+            "type": "tab"
+          }
+        ]
+      }
+    ]
+  }
+  {% endschema %}
+  
