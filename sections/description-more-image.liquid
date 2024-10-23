@@ -1,36 +1,30 @@
 {{ 'component-description-more-image.css' | asset_url | stylesheet_tag }}
 
 <div class="description-more-image">
-  <div class="description-wrapper">
-    <div class="tabs-container">
-      <ul class="tabs">
-        <li class="tab active" data-tab="details">DETAILS</li>
-        <li class="tab" data-tab="care-guide">CARE GUIDE</li>
-        <li class="tab" data-tab="shipping">SHIPPING</li>
-      </ul>
+    <div class="description-wrapper">
 
-      <div id="details" class="tab-content active">
-        <p>{{ block.settings.tab_content }}</p> 
-      </div>
+        <div class="tabs-wrapper">
+            <ul class="tabs">
+              {% for block in section.blocks %}
+                <li class="tab-title">{{ block.settings.tab_title }}</li>
+              {% endfor %}
+            </ul>
+            <div class="tabs-content">
+              {% for block in section.blocks %}
+                <div class="tab-content">{{ block.settings.tab_content }}</div>
+              {% endfor %}
+            </div>
+          </div>
+          <script src="{{ 'description-more-image.js' | asset_url }}" async></script>
 
-      <div id="care-guide" class="tab-content">
-        <p>{{ block.settings.care_guide_text }}</p>
-      </div>
 
-      <div id="shipping" class="tab-content">
-        <p>{{ block.settings.shipping_text }}</p>
-      </div>
+        {% if section.settings.show_image %}
+            <div class="image-right">
+                <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt }}" />
+            </div>
+        {% endif %}
     </div>
-
-    {% if section.settings.show_image %}
-      <div class="image-right">
-        <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt }}" />
-      </div>
-    {% endif %}
-  </div>
 </div>
-
-<script src="{{ 'description-more-image.js' | asset_url }}" defer></script>
 
 {% schema %}
 {
@@ -46,12 +40,6 @@
       "type": "image_picker",
       "id": "image",
       "label": "Upload Image"
-    },
-    {
-      "type": "text",
-      "id": "image_alt",
-      "label": "Image Alt Text",
-      "default": "Default alt text for image"
     }
   ],
   "blocks": [
@@ -66,7 +54,7 @@
           "default": "Description"
         },
         {
-          "type": "richtext",
+          "type": "textarea",
           "id": "tab_content",
           "label": "Tab Content",
           "default": "Essentials for Long-Lasting Shoes..."
@@ -77,9 +65,13 @@
   "presets": [
     {
       "name": "Description More Image",
-      "category": "Custom"
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "tab"
+        }
+      ]
     }
   ]
 }
-
 {% endschema %}
