@@ -1,9 +1,9 @@
 .tabs-image-section {
-  max-width: 1300px;
   display: flex;
   margin: 120px 20px;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
 /*
 .tabs-container {
