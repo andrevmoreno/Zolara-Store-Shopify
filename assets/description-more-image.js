@@ -4,9 +4,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   tabs.forEach((tab) => {
     tab.addEventListener('click', () => {
+      // Remove active class from all tabs and tab contents
       tabs.forEach((t) => t.classList.remove('active'))
       tabContents.forEach((tc) => tc.classList.remove('active'))
 
+      // Add active class to the selected tab and corresponding content
       tab.classList.add('active')
       document.getElementById(tab.dataset.tab).classList.add('active')
     })
