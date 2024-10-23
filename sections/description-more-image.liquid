@@ -1,4 +1,5 @@
 {{ 'component-description-more-image.css' | asset_url | stylesheet_tag }}
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
 <div class="description-more-image">
     <div class="description-wrapper">
@@ -50,6 +51,7 @@
         "default": "Default alt text for image"
       }
     ],
+    
     "blocks": [
       {
         "type": "tab",
@@ -81,6 +83,35 @@
         ]
       }
     ]
-  }
+  },
+  {
+    "type": "text",
+    "name": "t:sections.image-with-text.blocks.text.name",
+    "limit": 1,
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "text",
+        "default": "t:sections.image-with-text.blocks.text.settings.text.default",
+        "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+      },
+      {
+        "type": "select",
+        "id": "text_style",
+        "options": [
+          {
+            "value": "body",
+            "label": "t:sections.image-with-text.blocks.text.settings.text_style.options__1.label"
+          },
+          {
+            "value": "subtitle",
+            "label": "t:sections.image-with-text.blocks.text.settings.text_style.options__2.label"
+          }
+        ],
+        "default": "body",
+        "label": "t:sections.image-with-text.blocks.text.settings.text_style.label"
+      }
+    ]
+  },
   {% endschema %}
   
