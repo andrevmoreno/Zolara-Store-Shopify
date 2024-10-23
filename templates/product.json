@@ -202,8 +202,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/img-6.png",
-            "title": "",
-            "text": "<ul><li>Pair text with an image to focus on your chosen product, collection, or blog post.</li><li> Add details on availability, style, or even provide a review.</li><li>Pair text with an image to focus on your chosen product, collection, or blog post.</li></ul>",
+            "title": "Inferior Alternatives:",
+            "text": "<ul><li>Generic Gloves</li><li>Slow Relief</li><li>Uncomfortable Fit</li><li>Short Lifespan</li></ul>",
             "link_label": "",
             "link": ""
           }
