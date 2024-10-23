@@ -1536,34 +1536,5 @@
         "category": "Custom"
       }
     ]
-  },
-
-  {
-    "name": "t:settings_schema.tabs_section.name",
-    "settings": [
-      {
-        "type": "checkbox",
-        "id": "show_tabs_section",
-        "label": "Show Tabs Section",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "show_image",
-        "label": "Show Image",
-        "default": true
-      },
-      {
-        "type": "image_picker",
-        "id": "image",
-        "label": "Upload Image"
-      }
-    ],
-    "presets": [
-      {
-        "name": "Description More Image",
-        "category": "Custom"
-      }
-    ]
   }
 ]
