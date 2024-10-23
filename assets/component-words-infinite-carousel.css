@@ -16,7 +16,7 @@
 
 .carousel {
   display: flex;
-  animation: scroll 5s linear infinite;
+  animation: scroll 40s linear infinite;
 }
 
 .carousel-item {
@@ -54,6 +54,6 @@
   }
 
   .carousel {
-    animation-duration: 5s;
+    animation-duration: 40s;
   }
 }
