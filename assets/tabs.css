@@ -1,14 +1,14 @@
-tabs-image-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+.tabs-image-section {
+  display: flex;
   margin: 60px 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
   gap: 40px;
 }
 
 .tabs-container {
-  justify-self: stretch;
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -48,11 +48,30 @@ tabs-image-section {
   margin: 10px 0;
 }
 
-.image-container {
-  padding: 40px;
+.image-section {
+  width: 45vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
 }
 
-.section-image {
-  border-radius: 20px;
-  object-fit: cover;
+.image-section img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Responsive mobile */
+@media screen and (max-width: 768px) {
+  .tabs-image-section {
+    flex-direction: column;
+  }
+
+  .tabs-container,
+  .image-section {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .image-container {
+    width: 45vw;
+  }
 }
