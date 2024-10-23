@@ -1,20 +1,29 @@
 .tabs-image-section {
   max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
 }
+/*
 .tabs-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
 }
-
+*/
 .tabs {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-  width: 100%;
+  width: 60%;
   border-bottom: 2px solid #e5e5e5;
+}
+
+.image-section {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .tabs .tab {
