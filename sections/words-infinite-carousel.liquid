@@ -24,33 +24,40 @@
     setInterval(autoScroll, 30);
   </script>
   {% schema %}
-{
-  "name": "Infinite Word Carousel",
-  "settings": [
-    {
-      "type": "text",
-      "id": "word_1",
-      "label": "First Word",
-      "default": "ALL-DAY COMFORT"
-    },
-    {
-      "type": "text",
-      "id": "word_2",
-      "label": "Second Word",
-      "default": "FUNCTIONAL"
-    },
-    {
-      "type": "text",
-      "id": "word_3",
-      "label": "Third Word",
-      "default": "INJURY PREVENTION"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Default",
-      "category": "Custom"
-    }
-  ]
-}
-{% endschema %}
+  {
+    "name": "Infinite Word Carousel",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_infinite_carousel",
+        "label": "Mostrar carrusel infinito de palabras",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "word_1",
+        "label": "Primera palabra",
+        "default": "ALL-DAY COMFORT"
+      },
+      {
+        "type": "text",
+        "id": "word_2",
+        "label": "Segunda palabra",
+        "default": "FUNCTIONAL"
+      },
+      {
+        "type": "text",
+        "id": "word_3",
+        "label": "Tercera palabra",
+        "default": "INJURY PREVENTION"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Default",
+        "category": "Custom"
+      }
+    ]
+  }
+  {% endschema %}
+  
