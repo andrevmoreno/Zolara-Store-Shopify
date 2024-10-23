@@ -18,6 +18,32 @@
   display: flex;
   animation: scroll 40s linear infinite;
   width: calc(300px * 12);
+  position: relative;
+}
+
+.carousel::before,
+.carousel::after {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: '';
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.carousel::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.carousel::before {
+  left: 0;
+  top: 0;
 }
 
 .carousel-item {
