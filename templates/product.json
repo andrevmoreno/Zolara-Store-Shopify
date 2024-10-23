@@ -88,6 +88,15 @@
         "image": "shopify://shop_images/img-tabs.png"
       }
     },
+    "words_infinite_carousel_KceTwb": {
+      "type": "words-infinite-carousel",
+      "settings": {
+        "show_infinite_carousel": true,
+        "word_1": "ALL-DAY COMFORT",
+        "word_2": "FUNCTIONAL",
+        "word_3": "INJURY PREVENTION"
+      }
+    },
     "rich_text_dUJNeM": {
       "type": "rich-text",
       "blocks": {
@@ -396,6 +405,7 @@
   "order": [
     "main",
     "tabs_description_image_dAMtCR",
+    "words_infinite_carousel_KceTwb",
     "rich_text_dUJNeM",
     "multirow_LUFzJe",
     "multicolumn_9b3CyG",
