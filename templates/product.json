@@ -270,7 +270,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -279,7 +279,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -288,7 +288,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -306,7 +306,7 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "row",
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
