@@ -1,6 +1,5 @@
 .tabs-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -10,39 +9,26 @@
   padding: 0;
   margin: 0;
   display: flex;
-  width: 100%;
   border-bottom: 2px solid #e5e5e5;
-}
-
-.tabs .tab {
-  padding: 15px 20px;
-  cursor: pointer;
-  font-weight: bold;
-  color: #777;
-}
-
-.tabs .tab.active {
-  color: #5d3ebc;
-  border-bottom: 3px solid #5d3ebc;
+  width: 60%;
+  flex-direction: column; /* Esto asegura que las tabs estén alineadas arriba y contenido abajo */
 }
 
 .tab-content {
   padding: 20px;
-  width: 100%;
   display: none;
+  width: 100%; /* Ajusta el contenido a toda la sección */
 }
 
 .tab-content.active {
   display: block;
 }
 
-.tab-content p {
-  margin: 0 0 20px;
-}
-
 .image-section {
-  width: 100%;
-  margin-top: 20px;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end; /* Coloca la imagen a la derecha */
+  margin-left: 20px; /* Añade un margen para dar espacio */
 }
 
 .image-section img {
