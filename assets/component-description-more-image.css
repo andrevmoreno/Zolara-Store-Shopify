@@ -28,7 +28,11 @@
   color: #333;
 }
 
-.description-more-image .image-side img {
+.description-more-image .image-right {
+  text-align: right;
+}
+
+.description-more-image .image-right img {
   max-width: 100%;
   border-radius: 12px;
 }
@@ -40,7 +44,7 @@
 }
 
 .tab-title.active {
-  border-bottom: 2px solid #5c34a2; /* Color o estilo de la pestaña activa */
+  border-bottom: 2px solid #5c34a2;
 }
 
 .tab-content {
@@ -51,6 +55,7 @@
 .tab-content.active {
   display: block;
 }
+
 /* Animación suave */
 .description-more-image {
   opacity: 0;
