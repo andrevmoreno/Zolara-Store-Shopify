@@ -159,41 +159,6 @@
         "block_subtitle": "Instant Hand Pain Relief, Anytime You Need It"
       }
     },
-    "description_more_image_ikG7pp": {
-      "type": "description-more-image",
-      "blocks": {
-        "tab_Wqjyzi": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "Description",
-            "tab_content": "hola"
-          }
-        },
-        "tab_3JKgnj": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "Description",
-            "tab_content": "Essentials for Long-Lasting Shoes...\njjj"
-          }
-        },
-        "tab_8E6JnY": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "Description",
-            "tab_content": "Essentials for Long-Lasting Shoes..."
-          }
-        }
-      },
-      "block_order": [
-        "tab_Wqjyzi",
-        "tab_3JKgnj",
-        "tab_8E6JnY"
-      ],
-      "settings": {
-        "show_image": true,
-        "image": "shopify://shop_images/img-tabs.png"
-      }
-    },
     "collapsible_content_PUjRnk": {
       "type": "collapsible-content",
       "blocks": {
@@ -303,7 +268,6 @@
     "multirow_WFGGGp",
     "benefits_rgbYKa",
     "image_block_description_3kfMrw",
-    "description_more_image_ikG7pp",
     "collapsible_content_PUjRnk"
   ]
 }
