@@ -1,3 +1,6 @@
+.tabs-image-section {
+  max-width: 1300px;
+}
 .tabs-container {
   display: flex;
   flex-wrap: wrap;
