@@ -260,19 +260,27 @@
         "padding_bottom": 36
       }
     },
-    "description_more_image_knR8JF": {
+    "description_more_image_iDPrPD": {
       "type": "description-more-image",
       "blocks": {
-        "tab_X67WjF": {
+        "tab_djN4YC": {
           "type": "tab",
           "settings": {
             "tab_title": "Description",
-            "tab_content": "Essentials for Long-Lasting Shoes...kdkckmckcmckm"
+            "tab_content": "Essentials for Long-Lasting Shoes...\nlkl,k,k,k"
+          }
+        },
+        "tab_cGNDWa": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Description",
+            "tab_content": "Essentials for Long-Lasting Shoes..."
           }
         }
       },
       "block_order": [
-        "tab_X67WjF"
+        "tab_djN4YC",
+        "tab_cGNDWa"
       ],
       "settings": {
         "show_image": true
@@ -287,6 +295,6 @@
     "benefits_rgbYKa",
     "image_block_description_3kfMrw",
     "collapsible_content_PUjRnk",
-    "description_more_image_knR8JF"
+    "description_more_image_iDPrPD"
   ]
 }
