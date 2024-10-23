@@ -22,12 +22,6 @@
   border-bottom: 2px solid #e5e5e5;
 }
 
-.image-section {
-  width: 40%;
-  display: flex;
-  justify-content: flex-end;
-}
-
 .tabs .tab {
   padding: 15px 20px;
   cursor: pointer;
@@ -54,11 +48,28 @@
   margin: 0 0 20px;
 }
 
+.tabs-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.tab-content {
+  flex-basis: 60%;
+  padding-right: 20px;
+}
+
+.image-section {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+}
+/*
 .image-section {
   width: 100%;
   margin-top: 20px;
 }
-
+*/
 .image-section img {
   max-width: 100%;
   border-radius: 10px;
