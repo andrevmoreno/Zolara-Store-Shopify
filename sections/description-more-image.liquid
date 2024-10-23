@@ -1,32 +1,33 @@
-{{{ 'component-description-more-image.css' | asset_url | stylesheet_tag }}
+{{ 'component-description-more-image.css' | asset_url | stylesheet_tag }}
 
 <div class="description-more-image">
-    <div class="description-wrapper">
-        <div class="tabs-container">
-            <ul class="tabs">
-                {% for block in section.blocks %}
-                    <li class="tab {% if forloop.first %}active{% endif %}" data-tab="tab-{{ forloop.index }}">
-                        {{ block.settings.tab_title }}
-                    </li>
-                {% endfor %}
-            </ul>
-            
-            <div class="tabs-content">
-                {% for block in section.blocks %}
-                    <div id="tab-{{ forloop.index }}" class="tab-content {% if forloop.first %}active{% endif %}">
-                        <h3>{{ block.settings.tab_title }}</h3>
-                        <div class="rte">{{ block.settings.tab_content }}</div>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
+  <div class="description-wrapper">
+    <div class="tabs-container">
+      <ul class="tabs">
+        <li class="tab active" data-tab="details">DETAILS</li>
+        <li class="tab" data-tab="care-guide">CARE GUIDE</li>
+        <li class="tab" data-tab="shipping">SHIPPING</li>
+      </ul>
 
-        {% if section.settings.show_image %}
-        <div class="image-right">
-            <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt }}">
-        </div>
-        {% endif %}
+      <div id="details" class="tab-content active">
+        <p>{{ block.settings.tab_content }}</p> 
+      </div>
+
+      <div id="care-guide" class="tab-content">
+        <p>{{ block.settings.care_guide_text }}</p>
+      </div>
+
+      <div id="shipping" class="tab-content">
+        <p>{{ block.settings.shipping_text }}</p>
+      </div>
     </div>
+
+    {% if section.settings.show_image %}
+      <div class="image-right">
+        <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt }}" />
+      </div>
+    {% endif %}
+  </div>
 </div>
 
 <script src="{{ 'description-more-image.js' | asset_url }}" defer></script>
@@ -68,7 +69,7 @@
           "type": "richtext",
           "id": "tab_content",
           "label": "Tab Content",
-          "default": "Enter the tab content here..."
+          "default": "Essentials for Long-Lasting Shoes..."
         }
       ]
     }
@@ -80,4 +81,5 @@
     }
   ]
 }
+
 {% endschema %}
