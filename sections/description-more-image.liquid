@@ -1,120 +1,40 @@
 {{ 'component-description-more-image.css' | asset_url | stylesheet_tag }}
-{%  comment %}
-  
 
 <div class="description-more-image">
-  <div class="description-wrapper">
-    <div class="tabs-container">
-      <ul class="tabs">
-        <li class="tab active" data-tab="details">DETAILS</li>
-        <li class="tab" data-tab="care-guide">CARE GUIDE</li>
-        <li class="tab" data-tab="shipping">SHIPPING</li>
-      </ul>
+    <div class="description-wrapper">
+      <div class="tabs-wrapper">
+        <ul class="tabs">
+          {% for block in section.blocks %}
+            <li class="tab-title">{{ block.settings.tab_title }}</li>
+          {% endfor %}
+        </ul>
+        <div class="tabs-content">
+          {% for block in section.blocks %}
+            <div class="tab-content rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                {{ block.settings.tab_content }}
+              </div>
+         
 
-      <div id="details" class="tab-content active">
-        <p>{{ section.settings.details_text }}</p>
+          {% endfor %}
+        </div>
       </div>
-
-      <div id="care-guide" class="tab-content">
-        <p>{{ section.settings.care_guide_text }}</p>
-      </div>
-
-      <div id="shipping" class="tab-content">
-        <p>{{ section.settings.shipping_text }}</p>
-      </div>
-    </div>
-
-</div>
-
-<script src="{{ 'description-more-image.js' | asset_url }}" defer></script>
-
-{% schema %}
-{
-  "name": "Description More Image",
-  "settings": [
-    {
-      "type": "checkbox",
-      "id": "show_image",
-      "label": "Show Image",
-      "default": true
-    },
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Upload Image"
-    },
-    {
-      "type": "text",
-      "id": "image_alt",
-      "label": "Image Alt Text",
-      "default": "Default alt text for image"
-    },
-    {
-      "type": "richtext",
-      "id": "details_text",
-      "label": "Details Text",
-      "default": "Enter details text here."
-    },
-    {
-      "type": "richtext",
-      "id": "care_guide_text",
-      "label": "Care Guide Text",
-      "default": "Enter care guide text here."
-    },
-    {
-      "type": "richtext",
-      "id": "shipping_text",
-      "label": "Shipping Text",
-      "default": "Enter shipping text here."
-    }
-  ],
-  "presets": [
-    {
-      "name": "Description More Image",
-      "category": "Custom"
-    }
-  ]
-}
-{% endschema %}
-{% endcomment %}
-<div class="tabs-container">
-    <ul class="tabs">
-      <li class="tab active" data-tab="details">DETAILS</li>
-      <li class="tab" data-tab="care-guide">CARE GUIDE</li>
-      <li class="tab" data-tab="detailed-specifications">DETAILED SPECIFICATIONS</li>
-      <li class="tab" data-tab="shipping">SHIPPING</li>
-    </ul>
   
-    <div id="details" class="tab-content active">
-      <p>{{ section.settings.details_text }}</p>
-    </div>
-  
-    <div id="care-guide" class="tab-content">
-      <p>{{ section.settings.care_guide_text }}</p>
-    </div>
-  
-    <div id="detailed-specifications" class="tab-content">
-      <p>{{ section.settings.dspecifications_text }}</p>
-    </div>
-
-    <div id="shipping" class="tab-content">
-        <p>{{ section.settings.shipping_text }}</p>
-     </div>
-
-    {% if section.settings.show_image %}
+      {% if section.settings.show_image %}
         <div class="image-right">
           <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt }}" />
         </div>
       {% endif %}
-</div>
+    </div>
+  </div>
   
-<script src="{{ 'description-more-image.js' | asset_url }}" defer></script>
+  <script src="{{ 'description-more-image.js' | asset_url }}" async></script>
+  
 
-{% schema %}
-{
-  "name": "Tabs",
-  "settings": [
-    {
+  {% schema %}
+  {
+    "name": "Description More Image",
+    "settings": [
+      {
         "type": "checkbox",
         "id": "show_image",
         "label": "Show Image",
@@ -130,33 +50,40 @@
         "id": "image_alt",
         "label": "Image Alt Text",
         "default": "Default alt text for image"
-      },
-    {
-      "type": "richtext",
-      "id": "details_text",
-      "label": "Details Text"
-    },
-    {
-      "type": "richtext",
-      "id": "care_guide_text",
-      "label": "Care Guide Text"
-    },
-    {
-      "type": "richtext",
-      "id": "dspecifications_text",
-      "label": "Shipping Text"
-    },
-    {
-      "type": "richtext",
-      "id": " shipping_text",
-      "label": "Shipping Additional Content"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Default",
-      "category": "Custom"
-    }
-  ]
-}
-{% endschema %}
+      }
+    ],
+    
+    "blocks": [
+      {
+        "type": "tab",
+        "name": "Tab",
+        "settings": [
+          {
+            "type": "text",
+            "id": "tab_title",
+            "label": "Tab Title",
+            "default": "Description"
+          },
+          {
+            "type": "richtext",
+            "id": "tab_content",
+            "label": "Tab Content",
+            "default": "Essentials for Long-Lasting Shoes...",
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Description More Image",
+        "category": "Custom",
+        "blocks": [
+          {
+            "type": "tab"
+          }
+        ]
+      }
+    ]
+  }
+  {% endschema %}
+  
