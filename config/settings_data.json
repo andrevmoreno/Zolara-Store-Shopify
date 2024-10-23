@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/FrostGrip-logo.svg",
+    "logo": "shopify://shop_images/Flexiglove_logo.svg",
     "logo_width": 100,
-    "favicon": "shopify://shop_images/icon-logo-favicon.svg",
+    "favicon": "shopify://shop_images/Flexiglove_logo_favicon.svg",
     "type_header_font": "poppins_n4",
     "heading_scale": 110,
     "type_body_font": "poppins_n4",
@@ -158,8 +158,8 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#28135d",
-          "button": "#0088ce",
+          "text": "#424242",
+          "button": "#bf17a7",
           "button_label": "#ffffff",
           "secondary_button_label": "#28135d",
           "shadow": "#0e1b4d"
@@ -169,8 +169,8 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#582fc0",
-          "button": "#8461f7",
+          "text": "#93278f",
+          "button": "#bf17a7",
           "button_label": "#ffffff",
           "secondary_button_label": "#0e1b4d",
           "shadow": "#0e1b4d"
@@ -200,9 +200,9 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#ebfdff",
+          "background": "#e5faff",
           "background_gradient": "",
-          "text": "#28135d",
+          "text": "#424242",
           "button": "#0088ce",
           "button_label": "#ffffff",
           "secondary_button_label": "#0088ce",
