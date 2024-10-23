@@ -1,77 +1,70 @@
-{{ 'component-description-more-image.css' | asset_url | stylesheet_tag }}
-
 <div class="description-more-image">
-    <div class="description-wrapper">
+  <div class="description-wrapper">
+      <!-- Tabs section -->
+      <div class="tabs-left">
+          {% for block in section.blocks %}
+              <div class="tab {% if forloop.first %}active{% endif %}" data-index="{{ forloop.index0 }}">
+                  <h3>{{ block.settings.tab_title }}</h3>
+                  <p>{{ block.settings.tab_description }}</p>
+              </div>
+          {% endfor %}
+      </div>
 
-        <div class="tabs-wrapper">
-            <ul class="tabs">
-              {% for block in section.blocks %}
-                <li class="tab-title">{{ block.settings.tab_title }}</li>
-              {% endfor %}
-            </ul>
-            <div class="tabs-content">
-              {% for block in section.blocks %}
-                <div class="tab-content">{{ block.settings.tab_content }}</div>
-              {% endfor %}
-            </div>
+      <!-- Image section -->
+      {% if section.settings.show_image %}
+          <div class="image-right">
+              <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt }}" />
           </div>
-          <script src="{{ 'description-more-image.js' | asset_url }}" async></script>
-
-
-        {% if section.settings.show_image %}
-            <div class="image-right">
-                <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt }}" />
-            </div>
-        {% endif %}
-    </div>
+      {% endif %}
+  </div>
 </div>
-
 {% schema %}
 {
-  "name": "Description More Image",
-  "settings": [
-    {
-      "type": "checkbox",
-      "id": "show_image",
-      "label": "Show Image",
-      "default": true
-    },
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Upload Image"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "tab",
-      "name": "Tab",
-      "settings": [
+    "name": "Description More Image",
+    "settings": [
         {
-          "type": "text",
-          "id": "tab_title",
-          "label": "Tab Title",
-          "default": "Description"
+            "type": "checkbox",
+            "id": "show_image",
+            "label": "Show Image",
+            "default": true
         },
         {
-          "type": "textarea",
-          "id": "tab_content",
-          "label": "Tab Content",
-          "default": "Essentials for Long-Lasting Shoes..."
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Description More Image",
-      "category": "Custom",
-      "blocks": [
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
         {
-          "type": "tab"
+            "type": "text",
+            "id": "image_alt",
+            "label": "Image Alt Text",
+            "default": "Description Image"
         }
-      ]
-    }
-  ]
+    ],
+    "blocks": [
+        {
+            "type": "tab",
+            "name": "Tab",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "tab_title",
+                    "label": "Tab Title",
+                    "default": "Tab Title"
+                },
+                {
+                    "type": "textarea",
+                    "id": "tab_description",
+                    "label": "Tab Description",
+                    "default": "Tab description goes here."
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Description More Image",
+            "category": "Custom"
+        }
+    ]
 }
 {% endschema %}
