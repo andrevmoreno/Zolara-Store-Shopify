@@ -84,7 +84,7 @@
         "details_text": "<h3><strong>FlexiGlove™: Fast Relief & Lasting Support for Busy Professionals</strong></h3><h4><strong>1. Fast Relief & Targeted Support</strong></h4><p>FlexiGlove™ offers <strong>targeted compression</strong> that quickly alleviates hand and wrist pain from <strong>arthritis</strong>, <strong>carpal tunnel</strong>, and <strong>tendonitis</strong>, keeping you productive and pain-free.</p><p></p><p></p><h4><strong>2. Breathable, Ergonomic Comfort</strong></h4><p>Made from <strong>Copper nylon</strong> and <strong>Spandex</strong>, FlexiGlove™ is designed to be <strong>flexible</strong>, <strong>breathable</strong>, and <strong>hygienic</strong>—perfect for all-day use without discomfort.</p><p></p><p></p><h4><strong>3. All-Day Versatility</strong></h4><p>With a <strong>fingerless design</strong>, FlexiGlove™ lets you type, use a mouse, or handle tasks without interruption, giving you full functionality while staying pain-free.</p><h4><strong>4. Durability & Long-Lasting Use</strong></h4><p>The <strong>copper-infused fabric</strong> ensures long-lasting hygiene and durability, keeping your gloves <strong>effective and fresh</strong>, even with daily use.</p><p></p><p></p><h4><strong>5. Quick & Effective Relief</strong></h4><p>In just <strong>10 minutes</strong>, FlexiGlove™  reduces swelling, boosts circulation, and helps prevent long-term injuries like <strong>RSI</strong> (Repetitive Strain Injury) and <strong>carpal tunnel syndrome </strong>with continuous use.</p>",
         "care_guide_text": "<h3><strong>How to Care for Your FlexiGlove™ Gloves</strong></h3><p>To keep your FlexiGlove™ gloves in the best condition and ensure long-lasting effectiveness, follow these easy steps:</p><ul><li><strong>Hand Wash Only</strong>: Gently clean your gloves using <strong>mild soap</strong> and <strong>lukewarm water</strong> to maintain their quality.</li><li><strong>Air Dry</strong>: Lay the gloves flat and let them dry naturally. Avoid wringing or using a dryer to keep their shape and elasticity intact.</li><li><strong>Do Not Bleach</strong>: Stay away from harsh chemicals like bleach, as they can damage the <strong>copper-infused fabric</strong>.</li><li><strong>Regular Cleaning</strong>: For <strong>optimal hygiene</strong>, wash your gloves regularly, especially if you use them daily.</li></ul><p><strong>Follow these simple tips</strong> to ensure your FlexiGlove™ gloves stay durable, hygienic, and effective for long-term use!</p>",
         "dspecifications_text": "<h3><strong>Shipping Details for Your FlexiGlove™ Order</strong></h3><h4><strong>Processing Time</strong></h4><p>We carefully prepare your order to ensure the highest quality. Expect <strong>1-3 business days</strong> for processing before shipping.</p><h4><strong>Delivery Time</strong></h4><p>Your <strong>FlexiGlove™</strong> typically arrives within <strong>5-10 business days</strong>, ensuring you get relief as quickly as possible.</p><h4><strong>Free Shipping</strong></h4><p>Enjoy <strong>FREE shipping</strong> on every order, with no minimum purchase required.</p>",
-        "shipping_text": "",
+        "shipping_text": "<h3><strong>Shipping Details for Your FlexiGlove™ Order</strong></h3><h4><strong>Processing Time</strong></h4><p>We carefully prepare your order to ensure the highest quality. Expect <strong>1-3 business days</strong> for processing before shipping.</p><h4><strong>Delivery Time</strong></h4><p>Your <strong>FlexiGlove™</strong> typically arrives within <strong>5-10 business days</strong>, ensuring you get relief as quickly as possible.</p><h4><strong>Free Shipping</strong></h4><p>Enjoy <strong>FREE shipping</strong> on every order, with no minimum purchase required.</p>",
         "image": "shopify://shop_images/img-tabs.png"
       }
     },
@@ -151,7 +151,7 @@
             "caption": "",
             "heading": "2. Ergonomic and Breathable Design",
             "text": "<p>Made from <strong>Copper nylon and Spandex</strong>, <strong>FlexiGlove™</strong> offers flexibility and breathability for <strong>all-day comfort</strong>. Whether you’re typing, using a mouse, or writing, these gloves provide essential support for your hands throughout the day.</p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -162,7 +162,7 @@
             "caption": "",
             "heading": "3. Comfort and Long-Term Injury Prevention",
             "text": "<p><strong>FlexiGlove™</strong> provides <strong>targeted compression</strong> that supports your hands, fingers, and knuckles while allowing a full range of motion. This helps prevent conditions like <strong>carpal tunnel syndrome</strong> and <strong>tendonitis</strong>, so you can stay <strong>productive and pain-free</strong> for the long haul.</p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         }
