@@ -85,6 +85,24 @@
         "padding_bottom": 60
       }
     },
+    "description_more_image_6gAUXg": {
+      "type": "description-more-image",
+      "blocks": {
+        "tab_RC3zFJ": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Description",
+            "tab_content": "kckckckc"
+          }
+        }
+      },
+      "block_order": [
+        "tab_RC3zFJ"
+      ],
+      "settings": {
+        "show_image": true
+      }
+    },
     "rich_text_dUJNeM": {
       "type": "rich-text",
       "blocks": {
@@ -251,6 +269,7 @@
   },
   "order": [
     "main",
+    "description_more_image_6gAUXg",
     "rich_text_dUJNeM",
     "multirow_LUFzJe",
     "multicolumn_9b3CyG",
