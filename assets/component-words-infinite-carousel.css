@@ -20,6 +20,7 @@
 .carousel-item {
   font-size: 3rem;
   font-weight: bold;
+  color: #bf17a7;
   margin: 0 40px;
   white-space: nowrap;
 }
@@ -40,7 +41,7 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
   .carousel-item {
     font-size: 2rem;
   }
