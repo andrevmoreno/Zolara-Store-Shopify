@@ -314,9 +314,9 @@
         "collapsible_row_qUKLGR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Are the gloves easy to clean?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Yes, <strong>FlexiGlove™ </strong>is easy to clean! Just hand wash with mild soap and water, then air dry. The <strong>copper-infused fabric</strong> helps keep the gloves hygienic and fresh, even with regular use.</p>",
             "page": ""
           }
         }
