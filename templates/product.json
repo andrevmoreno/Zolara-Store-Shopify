@@ -85,6 +85,17 @@
         "padding_bottom": 60
       }
     },
+    "tabs_description_image_dAMtCR": {
+      "type": "tabs-description-image",
+      "settings": {
+        "show_tabs_description_image": true,
+        "details_text": "<p>FlexiGlove™: Fast Relief & Lasting Support for Busy Professionals<br/>1. Fast Relief & Targeted Support<br/>FlexiGlove™ offers targeted compression that quickly alleviates hand and wrist pain from arthritis, carpal tunnel, and tendonitis, keeping you productive and pain-free.<br/><br/>2. Breathable, Ergonomic Comfort<br/>Made from Copper nylon and Spandex, FlexiGlove™ is designed to be flexible, breathable, and hygienic—perfect for all-day use without discomfort.<br/><br/>3. All-Day Versatility<br/>With a fingerless design, FlexiGlove™ lets you type, use a mouse, or handle tasks without interruption, giving you full functionality while staying pain-free.<br/><br/>4. Durability & Long-Lasting Use<br/>The copper-infused fabric ensures long-lasting hygiene and durability, keeping your gloves effective and fresh, even with daily use.<br/><br/><br/>5. Quick & Effective Relief<br/>In just 10 minutes, FlexiGlove™  reduces swelling, boosts circulation, and helps prevent long-term injuries like RSI (Repetitive Strain Injury) and carpal tunnel syndrome with continuous use.<br/></p>",
+        "care_guide_text": "",
+        "dspecifications_text": "",
+        "shipping_text": "",
+        "image": "shopify://shop_images/img-tabs.png"
+      }
+    },
     "rich_text_dUJNeM": {
       "type": "rich-text",
       "blocks": {
@@ -392,6 +403,7 @@
   },
   "order": [
     "main",
+    "tabs_description_image_dAMtCR",
     "rich_text_dUJNeM",
     "multirow_LUFzJe",
     "multicolumn_9b3CyG",
