@@ -1,5 +1,4 @@
 {{ 'component-description-more-image.css' | asset_url | stylesheet_tag }}
-
 <div class="description-more-image">
     <div class="description-wrapper">
       <div class="tabs-wrapper">
@@ -11,14 +10,12 @@
         <div class="tabs-content">
           {% for block in section.blocks %}
             <div class="tab-content rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-                {{ block.settings.tab_content }}
-              </div>
-         
-
+              {{ block.settings.tab_content }}
+            </div>
           {% endfor %}
         </div>
       </div>
-  
+      
       {% if section.settings.show_image %}
         <div class="image-right">
           <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt }}" />
@@ -44,15 +41,8 @@
         "type": "image_picker",
         "id": "image",
         "label": "Upload Image"
-      },
-      {
-        "type": "text",
-        "id": "image_alt",
-        "label": "Image Alt Text",
-        "default": "Default alt text for image"
       }
     ],
-    
     "blocks": [
       {
         "type": "tab",
@@ -85,5 +75,6 @@
       }
     ]
   }
+  
   {% endschema %}
   
