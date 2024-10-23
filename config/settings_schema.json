@@ -1528,32 +1528,6 @@
         "type": "image_picker",
         "id": "image",
         "label": "Upload Image"
-      },
-      {
-        "type": "text",
-        "id": "image_alt",
-        "label": "Image Alt Text",
-        "default": "Default alt text for image"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "tab",
-        "name": "Tab",
-        "settings": [
-          {
-            "type": "text",
-            "id": "tab_title",
-            "label": "Tab Title",
-            "default": "Description"
-          },
-          {
-            "type": "richtext",
-            "id": "tab_content",
-            "label": "Tab Content",
-            "default": "Essentials for Long-Lasting Shoes..."
-          }
-        ]
       }
     ],
     "presets": [
