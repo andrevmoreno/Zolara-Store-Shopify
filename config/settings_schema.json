@@ -1514,5 +1514,42 @@
         "default": true
       }
     ]
+  },
+  {
+    "name": "Tabs Description Image",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "details_text",
+        "label": "Details Text"
+      },
+      {
+        "type": "richtext",
+        "id": "care_guide_text",
+        "label": "Care Guide Text"
+      },
+      {
+        "type": "richtext",
+        "id": "specifications_text",
+        "label": "Specifications Text"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Upload Image"
+      },
+      {
+        "type": "text",
+        "id": "image_alt",
+        "label": "Image Alt Text",
+        "default": "Default Alt Text"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Tabs Description Image",
+        "category": "Custom"
+      }
+    ]
   }
 ]
