@@ -192,8 +192,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/img-5.png",
-            "title": "",
-            "text": "<ul><li>Pair text with an image to focus on your chosen product, collection, or blog post.</li><li> Add details on availability, style, or even provide a review.</li><li>Pair text with an image to focus on your chosen product, collection, or blog post.</li></ul>",
+            "title": "FlexiGlove™ Benefits:",
+            "text": "<ul><li>Precise Compression Support</li><li>Quick 10-Minute Relief</li><li>Breathable and Ergonomic Design</li><li>Durable & Hygienic Copper Fabric </li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -202,8 +202,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/img-6.png",
-            "title": "",
-            "text": "<ul><li>Pair text with an image to focus on your chosen product, collection, or blog post.</li><li> Add details on availability, style, or even provide a review.</li><li>Pair text with an image to focus on your chosen product, collection, or blog post.</li></ul>",
+            "title": "Inferior Alternatives:",
+            "text": "<ul><li>Generic Gloves</li><li>Slow Relief</li><li>Uncomfortable Fit</li><li>Short Lifespan</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -221,17 +221,23 @@
         "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "benefits_cmYJ9F": {
+      "type": "benefits",
+      "settings": {
       }
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -247,6 +253,141 @@
         "padding_top": 0,
         "padding_bottom": 60
       }
+    },
+    "collapsible_content_TtKMiR": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_rPJyBq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why FlexiGlove™ works for you?",
+            "icon": "none",
+            "row_content": "<p><strong>FlexiGlove™</strong> seamlessly fits into your busy workday. You can wear it during quick 10-minute breaks or throughout the day to recharge your hands, without needing to step away from your desk. It’s the ideal solution for staying pain-free and productive.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pRHf48": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": " How quickly will FlexiGlove™ provide relief?",
+            "icon": "none",
+            "row_content": "<p><strong>FlexiGlove™</strong> works fast! You’ll feel noticeable relief in just <strong>10 minutes</strong>. The targeted compression reduces pain and improves circulation, so you can get back to work feeling pain-free and refreshed.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3mhjpe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use FlexiGlove™ all day?",
+            "icon": "none",
+            "row_content": "<p>Absolutely! <strong>FlexiGlove™</strong> is made from breathable, flexible Copper nylon and Spandex, allowing you to wear them comfortably all day long. The open-finger design ensures full functionality without any restriction.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ni9Utd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": " Will FlexiGlove™ fit my hands properly?",
+            "icon": "none",
+            "row_content": "<p>Yes! <strong>FlexiGlove™</strong>offers adjustable wrist straps and comes in a range of sizes (Small to XL). Use the size guide to measure your hand circumference for a perfect fit every time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_H6qRzN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does FlexiGlove™ help prevent long-term injuries?",
+            "icon": "none",
+            "row_content": "<p><strong>FlexiGlove™</strong> provides <strong>targeted compression</strong> that supports your muscles and joints, reducing strain and preventing long-term issues like <strong>arthritis, carpal tunnel syndrome</strong>, and <strong>tendonitis</strong>. It’s a proactive way to protect your hands.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8MTp6c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How durable are these gloves?",
+            "icon": "none",
+            "row_content": "<p>Made with <strong>copper-infused fabrics</strong>, FlexiGlove™is built for durability and long-term use. The materials ensure <strong>hygiene</strong> and <strong>effectiveness</strong>, even with daily wear, and they’re designed to maintain their shape and support over time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qUKLGR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the gloves easy to clean?",
+            "icon": "none",
+            "row_content": "<p>Yes, <strong>FlexiGlove™ </strong>is easy to clean! Just hand wash with mild soap and water, then air dry. The <strong>copper-infused fabric</strong> helps keep the gloves hygienic and fresh, even with regular use.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FJx8JV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": " Are FlexiGlove™ gloves suitable for arthritis and carpal tunnel syndrome?",
+            "icon": "none",
+            "row_content": "<p>Yes, <strong>FlexiGlove™ </strong>is perfect for those with <strong>arthritis, carpal tunnel syndrome</strong>, and <strong>tendonitis</strong>. The compression relieves pain, reduces swelling, and improves circulation. Plus, the ergonomic design allows for long-term wear without discomfort.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_rPJyBq",
+        "collapsible_row_pRHf48",
+        "collapsible_row_3mhjpe",
+        "collapsible_row_ni9Utd",
+        "collapsible_row_H6qRzN",
+        "collapsible_row_8MTp6c",
+        "collapsible_row_qUKLGR",
+        "collapsible_row_FJx8JV"
+      ],
+      "settings": {
+        "caption": "We’ve got answers to your top questions about how FlexiGlove™",
+        "heading": "Find Relief with FlexiGlove™: Everything You Need to Know",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-5",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_CVAiRm": {
+      "type": "rich-text",
+      "blocks": {
+        "button_MwqxFw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Order FlexiGlove™ with Free Shipping!",
+            "button_link": "shopify://products/therapy-compression-gloves",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_benqL9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Feel the Difference Today</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "button_MwqxFw",
+        "text_benqL9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -254,6 +395,9 @@
     "rich_text_dUJNeM",
     "multirow_LUFzJe",
     "multicolumn_9b3CyG",
-    "related-products"
+    "benefits_cmYJ9F",
+    "related-products",
+    "collapsible_content_TtKMiR",
+    "rich_text_CVAiRm"
   ]
 }
