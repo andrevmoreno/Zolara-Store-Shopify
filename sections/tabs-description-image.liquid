@@ -1,0 +1,75 @@
+{{ 'tabs.css' | asset_url | stylesheet_tag }}
+
+<div class="tabs-image-section">
+  <div class="tabs-container">
+    <ul class="tabs">
+      <li class="tab active" data-tab="details">Details</li>
+      <li class="tab" data-tab="care-guide">Care Guide</li>
+      <li class="tab" data-tab="specifications">Specifications</li>
+    </ul>
+
+    <div id="details" class="tab-content active">
+      <p>{{ section.settings.details_text }}</p>
+    </div>
+  
+    <div id="care-guide" class="tab-content">
+      <p>{{ section.settings.care_guide_text }}</p>
+    </div>
+  
+    <div id="specifications" class="tab-content">
+      <p>{{ section.settings.specifications_text }}</p>
+    </div>
+  </div>
+
+  <div class="image-container">
+    {%- if section.settings.image != blank -%}
+      <img 
+        src="{{ section.settings.image | image_url: width: 600 }}" 
+        alt="{{ section.settings.image_alt | escape }}" 
+        class="section-image"
+      />
+    {%- endif -%}
+  </div>
+</div>
+
+<script src="{{ 'tabs.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "Tabs Description Image",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "details_text",
+      "label": "Details Text"
+    },
+    {
+      "type": "richtext",
+      "id": "care_guide_text",
+      "label": "Care Guide Text"
+    },
+    {
+      "type": "richtext",
+      "id": "specifications_text",
+      "label": "Specifications Text"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Upload Image"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Image Alt Text",
+      "default": "Default Alt Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
