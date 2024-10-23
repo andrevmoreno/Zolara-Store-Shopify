@@ -1519,6 +1519,12 @@
     "name": "Tabs Description Image",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "show_tabs_description_image",
+        "label": "Show Tabs Description Image",
+        "default": true
+      },
+      {
         "type": "richtext",
         "id": "details_text",
         "label": "Details Text"
@@ -1530,24 +1536,23 @@
       },
       {
         "type": "richtext",
-        "id": "specifications_text",
-        "label": "Specifications Text"
+        "id": "dspecifications_text",
+        "label": "Detailed Specifications Text"
+      },
+      {
+        "type": "richtext",
+        "id": "shipping_text",
+        "label": "Shipping Text"
       },
       {
         "type": "image_picker",
         "id": "image",
-        "label": "Upload Image"
-      },
-      {
-        "type": "text",
-        "id": "image_alt",
-        "label": "Image Alt Text",
-        "default": "Default Alt Text"
+        "label": "Right Side Image"
       }
     ],
     "presets": [
       {
-        "name": "Tabs Description Image",
+        "name": "Default",
         "category": "Custom"
       }
     ]
