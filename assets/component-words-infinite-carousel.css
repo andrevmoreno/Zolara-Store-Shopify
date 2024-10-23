@@ -2,6 +2,8 @@
   overflow: hidden;
   position: relative;
   padding: 20px 0;
+  background-color: #e5faff;
+  margin: 0px 60px;
 }
 
 .carousel-wrapper {
