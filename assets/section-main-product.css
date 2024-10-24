@@ -371,8 +371,7 @@ a.product__text {
 }
 
 .product-form__buttons {
-  display: flex;
-  /* max-width: 44rem;*/
+  max-width: 48rem;
 }
 
 .product--no-media .product__info-container > modal-opener {
