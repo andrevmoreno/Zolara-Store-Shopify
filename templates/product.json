@@ -403,7 +403,7 @@
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 20
       }
     },
     "rich_text_CVAiRm": {
